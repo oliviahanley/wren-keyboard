@@ -1,0 +1,98 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:AudioJack4 J1
+U 1 1 60725A82
+P 1600 2800
+F 0 "J1" H 1557 3125 50  0000 C CNN
+F 1 "TRRS_Jack" H 1557 3034 50  0000 C CNN
+F 2 "" H 1600 2800 50  0001 C CNN
+F 3 "~" H 1600 2800 50  0001 C CNN
+	1    1600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L random-keyboard-parts:ProMicro_2 U1
+U 1 1 6071F7CA
+P 1550 1650
+F 0 "U1" H 1550 2465 50  0000 C CNN
+F 1 "ProMicro" H 1550 2374 50  0000 C CNN
+F 2 "" H 1500 1750 50  0001 C CNN
+F 3 "" H 1500 1750 50  0001 C CNN
+	1    1550 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 900  1500 0    50   BiDi ~ 0
+SDA
+Text GLabel 900  1600 0    50   BiDi ~ 0
+SCL
+Text GLabel 2900 2700 2    50   BiDi ~ 0
+SDA
+Text GLabel 2900 2800 2    50   BiDi ~ 0
+SCL
+Text GLabel 2200 1400 2    50   Output ~ 0
+VCC
+Text GLabel 2900 3000 2    50   Input ~ 0
+VCC
+Text GLabel 1800 3000 2    50   Output ~ 0
+GND
+Text GLabel 2200 1200 2    50   Input ~ 0
+GND
+$Comp
+L Device:R_Small R1
+U 1 1 60729D01
+P 1950 2800
+F 0 "R1" H 2009 2846 50  0000 L CNN
+F 1 "2.2kOhms" H 2009 2755 50  0000 L CNN
+F 2 "" H 1950 2800 50  0001 C CNN
+F 3 "~" H 1950 2800 50  0001 C CNN
+	1    1950 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 6072E460
+P 2450 2900
+F 0 "R2" H 2509 2946 50  0000 L CNN
+F 1 "10kOhms" H 2509 2855 50  0000 L CNN
+F 2 "" H 2450 2900 50  0001 C CNN
+F 3 "~" H 2450 2900 50  0001 C CNN
+	1    2450 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2900 1950 2900
+Wire Wire Line
+	2200 2900 2200 3000
+Connection ~ 1950 2900
+Wire Wire Line
+	1950 2900 2200 2900
+Wire Wire Line
+	1800 2700 1950 2700
+Connection ~ 1950 2700
+Connection ~ 2450 2800
+Connection ~ 2450 3000
+Wire Wire Line
+	2200 3000 2450 3000
+Wire Wire Line
+	1800 2800 2450 2800
+Wire Wire Line
+	2450 3000 2900 3000
+Wire Wire Line
+	1950 2700 2900 2700
+Wire Wire Line
+	2450 2800 2900 2800
+$EndSCHEMATC
