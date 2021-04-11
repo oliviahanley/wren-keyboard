@@ -956,17 +956,12 @@ Text GLabel 3250 3450 2    50   Input ~ 0
 COL3
 Text GLabel 3250 3350 2    50   Input ~ 0
 COL4
-Text GLabel 3250 3250 2    50   Input ~ 0
-COL5
-Text GLabel 1950 2650 0    50   Input ~ 0
-ROW0
-Text GLabel 1950 2750 0    50   Input ~ 0
-ROW1
-Text GLabel 1950 3250 0    50   Input ~ 0
+Text GLabel 1950 3550 0    50   Input ~ 0
 ROW2
-Text GLabel 1950 3350 0    50   Input ~ 0
+Text GLabel 1950 3650 0    50   Input ~ 0
 ROW3
-NoConn ~ 1950 3650
+Text GLabel 1950 3750 0    50   Input ~ 0
+ROW4
 $Comp
 L Device:R_Small R2
 U 1 1 6072E460
@@ -982,9 +977,15 @@ Text GLabel 3950 4350 2    50   BiDi ~ 0
 SCL
 Text GLabel 3950 4250 2    50   BiDi ~ 0
 SDA
-NoConn ~ 3250 3050
+Text GLabel 1950 3450 0    50   Input ~ 0
+ROW1
+Text GLabel 1950 3350 0    50   Input ~ 0
+ROW0
+Text GLabel 3250 3250 2    50   Input ~ 0
+COL5
 NoConn ~ 3250 3150
-NoConn ~ 1950 3750
-NoConn ~ 1950 3550
-NoConn ~ 1950 3450
+NoConn ~ 3250 3050
+NoConn ~ 1950 3250
+NoConn ~ 1950 2750
+NoConn ~ 1950 2650
 $EndSCHEMATC
