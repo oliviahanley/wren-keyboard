@@ -39,10 +39,6 @@ Text GLabel 1950 3050 0    50   BiDi ~ 0
 SDA
 Text GLabel 1950 3150 0    50   BiDi ~ 0
 SCL
-Text GLabel 3950 4250 2    50   BiDi ~ 0
-SDA
-Text GLabel 3950 4350 2    50   BiDi ~ 0
-SCL
 Text GLabel 3250 2950 2    50   Output ~ 0
 VCC
 Text GLabel 3950 4550 2    50   Input ~ 0
@@ -60,17 +56,6 @@ F 1 "2.2kOhms" H 3059 4305 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 3000 4350 50  0001 C CNN
 F 3 "~" H 3000 4350 50  0001 C CNN
 	1    3000 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R2
-U 1 1 6072E460
-P 3500 4450
-F 0 "R2" H 3559 4496 50  0000 L CNN
-F 1 "10kOhms" H 3559 4405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3500 4450 50  0001 C CNN
-F 3 "~" H 3500 4450 50  0001 C CNN
-	1    3500 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -101,7 +86,7 @@ U 1 1 60738E12
 P 3750 2850
 F 0 "SW0" H 3750 3135 50  0000 C CNN
 F 1 "Reset" H 3750 3044 50  0000 C CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H 3750 3050 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3750 3050 50  0001 C CNN
 F 3 "~" H 3750 3050 50  0001 C CNN
 	1    3750 2850
 	1    0    0    -1  
@@ -996,7 +981,7 @@ U 1 1 6072AAD1
 P 5100 5550
 F 0 "MX41" H 5133 5773 60  0000 C CNN
 F 1 "MX-NoLED" H 5133 5699 20  0000 C CNN
-F 2 "MX_Only:MX-2U" H 4475 5525 60  0001 C CNN
+F 2 "MX_Only:MX-2U-FLIPPED-ReversedStabilizers" H 4475 5525 60  0001 C CNN
 F 3 "" H 4475 5525 60  0001 C CNN
 	1    5100 5550
 	1    0    0    -1  
@@ -1445,35 +1430,51 @@ Text GLabel 9250 2350 1    50   Input ~ 0
 COL8
 Text GLabel 9750 2350 1    50   Input ~ 0
 COL9
-Text GLabel 3250 3050 2    50   Input ~ 0
-COL0
-Text GLabel 3250 3150 2    50   Input ~ 0
-COL1
-Text GLabel 3250 3250 2    50   Input ~ 0
-COL2
-Text GLabel 3250 3350 2    50   Input ~ 0
-COL3
-Text GLabel 3250 3450 2    50   Input ~ 0
-COL4
-Text GLabel 3250 3550 2    50   Input ~ 0
-COL5
-Text GLabel 3250 3650 2    50   Input ~ 0
-COL6
 Text GLabel 3250 3750 2    50   Input ~ 0
+COL0
+Text GLabel 3250 3650 2    50   Input ~ 0
+COL1
+Text GLabel 3250 3550 2    50   Input ~ 0
+COL2
+Text GLabel 3250 3450 2    50   Input ~ 0
+COL3
+Text GLabel 3250 3350 2    50   Input ~ 0
+COL4
+Text GLabel 3250 3250 2    50   Input ~ 0
+COL5
+Text GLabel 3250 3150 2    50   Input ~ 0
+COL6
+Text GLabel 3250 3050 2    50   Input ~ 0
 COL7
-Text GLabel 1950 2650 0    50   Input ~ 0
-COL8
-Text GLabel 1950 2750 0    50   Input ~ 0
-COL9
-Text GLabel 1950 3250 0    50   Input ~ 0
-ROW0
-Text GLabel 1950 3350 0    50   Input ~ 0
-ROW1
 Text GLabel 1950 3450 0    50   Input ~ 0
-ROW2
+COL8
 Text GLabel 1950 3550 0    50   Input ~ 0
+COL9
+Text GLabel 1950 2650 0    50   Input ~ 0
+ROW0
+Text GLabel 1950 2750 0    50   Input ~ 0
+ROW1
+Text GLabel 1950 3250 0    50   Input ~ 0
+ROW2
+Text GLabel 1950 3350 0    50   Input ~ 0
 ROW3
-Text GLabel 1950 3650 0    50   Input ~ 0
+Text GLabel 1950 3750 0    50   Input ~ 0
 ROW4
-NoConn ~ 1950 3750
+NoConn ~ 1950 3650
+NoConn ~ 1850 4650
+$Comp
+L Device:R_Small R2
+U 1 1 6072E460
+P 3500 4450
+F 0 "R2" H 3559 4496 50  0000 L CNN
+F 1 "10kOhms" H 3559 4405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 3500 4450 50  0001 C CNN
+F 3 "~" H 3500 4450 50  0001 C CNN
+	1    3500 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 3950 4350 2    50   BiDi ~ 0
+SCL
+Text GLabel 3950 4250 2    50   BiDi ~ 0
+SDA
 $EndSCHEMATC
