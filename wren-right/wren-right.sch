@@ -24,17 +24,6 @@ F 3 "~" H 2650 4350 50  0001 C CNN
 	1    2650 4350
 	1    0    0    -1  
 $EndComp
-$Comp
-L random-keyboard-parts:ProMicro_2 U1
-U 1 1 6071F7CA
-P 2600 3200
-F 0 "U1" H 2600 4015 50  0000 C CNN
-F 1 "ProMicro" H 2600 3924 50  0000 C CNN
-F 2 "footprints:ARDUINO_PRO_MICRO" H 2550 3300 50  0001 C CNN
-F 3 "" H 2550 3300 50  0001 C CNN
-	1    2600 3200
-	1    0    0    -1  
-$EndComp
 Text GLabel 1950 3050 0    50   BiDi ~ 0
 SDA
 Text GLabel 1950 3150 0    50   BiDi ~ 0
@@ -214,17 +203,6 @@ F 1 "MX-NoLED" H 7133 2899 20  0000 C CNN
 F 2 "MX_Only:MX-1U" H 6475 2725 60  0001 C CNN
 F 3 "" H 6475 2725 60  0001 C CNN
 	1    7100 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX6
-U 1 1 60752EBC
-P 7600 2750
-F 0 "MX6" H 7633 2973 60  0000 C CNN
-F 1 "MX-NoLED" H 7633 2899 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 6975 2725 60  0001 C CNN
-F 3 "" H 6975 2725 60  0001 C CNN
-	1    7600 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -722,8 +700,6 @@ Wire Wire Line
 Wire Wire Line
 	6850 2900 7050 2900
 Wire Wire Line
-	7350 2900 7550 2900
-Wire Wire Line
 	4850 3600 5050 3600
 Wire Wire Line
 	5350 3600 5550 3600
@@ -913,11 +889,6 @@ Wire Wire Line
 Connection ~ 7250 4100
 Wire Wire Line
 	7250 4100 7250 3400
-Wire Wire Line
-	7750 2350 7750 2700
-Connection ~ 7750 2700
-Wire Wire Line
-	7750 2700 7750 3400
 Connection ~ 7750 3400
 Wire Wire Line
 	7750 3400 7750 4100
@@ -946,21 +917,21 @@ Text GLabel 7250 2350 1    50   Input ~ 0
 COL4
 Text GLabel 7750 2350 1    50   Input ~ 0
 COL5
-Text GLabel 3250 3750 2    50   Input ~ 0
+Text GLabel 1950 3250 0    50   Input ~ 0
 COL0
-Text GLabel 3250 3650 2    50   Input ~ 0
+Text GLabel 1950 3350 0    50   Input ~ 0
 COL1
-Text GLabel 3250 3550 2    50   Input ~ 0
+Text GLabel 1950 3450 0    50   Input ~ 0
 COL2
-Text GLabel 3250 3450 2    50   Input ~ 0
-COL3
-Text GLabel 3250 3350 2    50   Input ~ 0
-COL4
 Text GLabel 1950 3550 0    50   Input ~ 0
-ROW2
+COL3
 Text GLabel 1950 3650 0    50   Input ~ 0
+COL4
+Text GLabel 3250 3550 2    50   Input ~ 0
+ROW2
+Text GLabel 3250 3650 2    50   Input ~ 0
 ROW3
-Text GLabel 1950 3750 0    50   Input ~ 0
+Text GLabel 3250 3750 2    50   Input ~ 0
 ROW4
 $Comp
 L Device:R_Small R2
@@ -977,15 +948,60 @@ Text GLabel 3950 4350 2    50   BiDi ~ 0
 SCL
 Text GLabel 3950 4250 2    50   BiDi ~ 0
 SDA
-Text GLabel 1950 3450 0    50   Input ~ 0
+Text GLabel 3250 3450 2    50   Input ~ 0
 ROW1
-Text GLabel 1950 3350 0    50   Input ~ 0
+Text GLabel 3250 3350 2    50   Input ~ 0
 ROW0
-Text GLabel 3250 3250 2    50   Input ~ 0
-COL5
 NoConn ~ 3250 3150
 NoConn ~ 3250 3050
-NoConn ~ 1950 3250
-NoConn ~ 1950 2750
-NoConn ~ 1950 2650
+Text GLabel 1950 3750 0    50   Input ~ 0
+COL5
+$Comp
+L Device:Rotary_Encoder_Switch ENC1
+U 1 1 60751B50
+P 2200 5800
+F 0 "ENC1" H 2200 5433 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 2200 5524 50  0000 C CNN
+F 2 "" H 2050 5960 50  0001 C CNN
+F 3 "~" H 2200 6060 50  0001 C CNN
+	1    2200 5800
+	-1   0    0    1   
+$EndComp
+NoConn ~ 3250 3250
+Text GLabel 7750 2700 2    50   Input ~ 0
+ENC1-IN
+Text GLabel 7850 2900 2    50   Input ~ 0
+ENC1-OUT
+Wire Wire Line
+	7350 2900 7850 2900
+Wire Wire Line
+	7750 2350 7750 2700
+Connection ~ 7750 2700
+Wire Wire Line
+	7750 2700 7750 3400
+Text GLabel 1900 5700 0    50   Input ~ 0
+ENC1-IN
+Text GLabel 1900 5900 0    50   Input ~ 0
+ENC1-Out
+Text GLabel 2500 5800 2    50   Input ~ 0
+GND
+Text GLabel 2500 5700 2    50   Input ~ 0
+ENC1-RIGHT
+Text GLabel 2500 5900 2    50   Input ~ 0
+ENC1-LEFT
+$Comp
+L random-keyboard-parts:ProMicro_2 U1
+U 1 1 6071F7CA
+P 2600 3200
+F 0 "U1" H 2600 4015 50  0000 C CNN
+F 1 "ProMicro" H 2600 3924 50  0000 C CNN
+F 2 "footprints:ARDUINO_PRO_MICRO" H 2550 3300 50  0001 C CNN
+F 3 "" H 2550 3300 50  0001 C CNN
+	1    2600 3200
+	1    0    0    -1  
+$EndComp
+Text GLabel 1950 2650 0    50   Input ~ 0
+ENC1-LEFT
+Text GLabel 1950 2750 0    50   Input ~ 0
+ENC1-RIGHT
 $EndSCHEMATC
