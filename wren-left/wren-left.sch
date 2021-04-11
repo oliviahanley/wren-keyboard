@@ -19,7 +19,7 @@ U 1 1 60725A82
 P 2650 4350
 F 0 "J1" H 2607 4675 50  0000 C CNN
 F 1 "TRRS_Jack" H 2607 4584 50  0000 C CNN
-F 2 "footprints:TRRS_JACK_MJ4PP9" H 2650 4350 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal" H 2650 4350 50  0001 C CNN
 F 3 "~" H 2650 4350 50  0001 C CNN
 	1    2650 4350
 	1    0    0    -1  
@@ -101,7 +101,7 @@ U 1 1 60738E12
 P 3750 2850
 F 0 "SW0" H 3750 3135 50  0000 C CNN
 F 1 "Reset" H 3750 3044 50  0000 C CNN
-F 2 "random-keyboard-parts:SKQG-1155865" H 3750 3050 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3750 3050 50  0001 C CNN
 F 3 "~" H 3750 3050 50  0001 C CNN
 	1    3750 2850
 	1    0    0    -1  
@@ -996,7 +996,7 @@ U 1 1 6072AAD1
 P 5100 5550
 F 0 "MX41" H 5133 5773 60  0000 C CNN
 F 1 "MX-NoLED" H 5133 5699 20  0000 C CNN
-F 2 "MX_Only:MX-1.5U" H 4475 5525 60  0001 C CNN
+F 2 "MX_Only:MX-2U-FLIPPED-ReversedStabilizers" H 4475 5525 60  0001 C CNN
 F 3 "" H 4475 5525 60  0001 C CNN
 	1    5100 5550
 	1    0    0    -1  
@@ -1445,25 +1445,25 @@ Text GLabel 9250 2350 1    50   Input ~ 0
 COL8
 Text GLabel 9750 2350 1    50   Input ~ 0
 COL9
-Text GLabel 3250 3050 2    50   Input ~ 0
-COL0
-Text GLabel 3250 3150 2    50   Input ~ 0
-COL1
-Text GLabel 3250 3250 2    50   Input ~ 0
-COL2
-Text GLabel 3250 3350 2    50   Input ~ 0
-COL3
-Text GLabel 3250 3450 2    50   Input ~ 0
-COL4
-Text GLabel 3250 3550 2    50   Input ~ 0
-COL5
-Text GLabel 3250 3650 2    50   Input ~ 0
-COL6
 Text GLabel 3250 3750 2    50   Input ~ 0
+COL0
+Text GLabel 3250 3650 2    50   Input ~ 0
+COL1
+Text GLabel 3250 3550 2    50   Input ~ 0
+COL2
+Text GLabel 3250 3450 2    50   Input ~ 0
+COL3
+Text GLabel 3250 3350 2    50   Input ~ 0
+COL4
+Text GLabel 3250 3250 2    50   Input ~ 0
+COL5
+Text GLabel 3250 3150 2    50   Input ~ 0
+COL6
+Text GLabel 3250 3050 2    50   Input ~ 0
 COL7
-Text GLabel 1950 2650 0    50   Input ~ 0
-COL8
 Text GLabel 1950 2750 0    50   Input ~ 0
+COL8
+Text GLabel 1950 2650 0    50   Input ~ 0
 COL9
 Text GLabel 1950 3250 0    50   Input ~ 0
 ROW0
