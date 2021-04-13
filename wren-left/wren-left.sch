@@ -1481,4 +1481,23 @@ Text GLabel 1600 1650 2    50   Output ~ 0
 GND
 Text GLabel 1600 1750 2    50   Output ~ 0
 GND
+NoConn ~ 3200 1450
+NoConn ~ 2300 2950
+NoConn ~ 2400 2950
+NoConn ~ 2500 2950
+NoConn ~ 2600 2950
+NoConn ~ 2700 2950
+$Comp
+L Device:Rotary_Encoder_Switch ENC1
+U 1 1 60759DC4
+P 1700 6350
+F 0 "ENC1" H 1700 6717 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 1700 6626 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 1550 6510 50  0001 C CNN
+F 3 "~" H 1700 6610 50  0001 C CNN
+	1    1700 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 6350 0    50   Input ~ 0
+GND
 $EndSCHEMATC

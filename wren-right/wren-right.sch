@@ -998,4 +998,17 @@ NoConn ~ 1750 2550
 NoConn ~ 1850 2550
 NoConn ~ 1950 2550
 NoConn ~ 2450 1050
+$Comp
+L Device:Rotary_Encoder_Switch ENC1
+U 1 1 6077ECF3
+P 1900 5900
+F 0 "ENC1" H 1900 6267 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 1900 6176 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 1750 6060 50  0001 C CNN
+F 3 "~" H 1900 6160 50  0001 C CNN
+	1    1900 5900
+	1    0    0    -1  
+$EndComp
+Text GLabel 1600 5900 0    50   Input ~ 0
+GND
 $EndSCHEMATC
