@@ -24,17 +24,17 @@ F 3 "~" H 2650 4350 50  0001 C CNN
 	1    2650 4350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 3050 0    50   BiDi ~ 0
+Text GLabel 1050 1450 0    50   BiDi ~ 0
 SDA
-Text GLabel 1950 3150 0    50   BiDi ~ 0
+Text GLabel 1050 1550 0    50   BiDi ~ 0
 SCL
-Text GLabel 3250 2950 2    50   Output ~ 0
+Text GLabel 2450 1350 2    50   Output ~ 0
 VCC
 Text GLabel 3950 4550 2    50   Input ~ 0
 VCC
 Text GLabel 2850 4550 2    50   Output ~ 0
 GND
-Text GLabel 3250 2750 2    50   Input ~ 0
+Text GLabel 2450 1150 2    50   Input ~ 0
 GND
 $Comp
 L Device:R_Small R1
@@ -72,17 +72,17 @@ Wire Wire Line
 $Comp
 L Switch:SW_Push SW0
 U 1 1 60738E12
-P 3750 2850
-F 0 "SW0" H 3750 3135 50  0000 C CNN
-F 1 "Reset" H 3750 3044 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3750 3050 50  0001 C CNN
-F 3 "~" H 3750 3050 50  0001 C CNN
-	1    3750 2850
+P 2950 1250
+F 0 "SW0" H 2950 1535 50  0000 C CNN
+F 1 "Reset" H 2950 1444 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 2950 1450 50  0001 C CNN
+F 3 "~" H 2950 1450 50  0001 C CNN
+	1    2950 1250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3250 2850 3550 2850
-Text GLabel 3950 2850 2    50   Output ~ 0
+	2450 1250 2750 1250
+Text GLabel 3150 1250 2    50   Output ~ 0
 GND
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX1
@@ -917,21 +917,21 @@ Text GLabel 7250 2350 1    50   Input ~ 0
 COL4
 Text GLabel 7750 2350 1    50   Input ~ 0
 COL5
-Text GLabel 1950 3250 0    50   Input ~ 0
+Text GLabel 1050 1650 0    50   Input ~ 0
 COL0
-Text GLabel 1950 3350 0    50   Input ~ 0
+Text GLabel 1050 1750 0    50   Input ~ 0
 COL1
-Text GLabel 1950 3450 0    50   Input ~ 0
+Text GLabel 1050 1850 0    50   Input ~ 0
 COL2
-Text GLabel 1950 3550 0    50   Input ~ 0
+Text GLabel 1050 1950 0    50   Input ~ 0
 COL3
-Text GLabel 1950 3650 0    50   Input ~ 0
+Text GLabel 1050 2050 0    50   Input ~ 0
 COL4
-Text GLabel 3250 3550 2    50   Input ~ 0
+Text GLabel 2450 1950 2    50   Input ~ 0
 ROW2
-Text GLabel 3250 3650 2    50   Input ~ 0
+Text GLabel 2450 2050 2    50   Input ~ 0
 ROW3
-Text GLabel 3250 3750 2    50   Input ~ 0
+Text GLabel 2450 2150 2    50   Input ~ 0
 ROW4
 $Comp
 L Device:R_Small R2
@@ -948,24 +948,24 @@ Text GLabel 3950 4350 2    50   BiDi ~ 0
 SCL
 Text GLabel 3950 4250 2    50   BiDi ~ 0
 SDA
-Text GLabel 3250 3450 2    50   Input ~ 0
+Text GLabel 2450 1850 2    50   Input ~ 0
 ROW1
-Text GLabel 3250 3350 2    50   Input ~ 0
+Text GLabel 2450 1750 2    50   Input ~ 0
 ROW0
-NoConn ~ 3250 3150
-NoConn ~ 3250 3050
-Text GLabel 1950 3750 0    50   Input ~ 0
+NoConn ~ 2450 1550
+NoConn ~ 2450 1450
+Text GLabel 1050 2150 0    50   Input ~ 0
 COL5
-NoConn ~ 3250 3250
+NoConn ~ 2450 1650
 $Comp
-L random-keyboard-parts:ProMicro_2 U1
+L keebio:Elite-C U1
 U 1 1 6071F7CA
-P 2600 3200
-F 0 "U1" H 2600 4015 50  0000 C CNN
-F 1 "ProMicro" H 2600 3924 50  0000 C CNN
-F 2 "footprints:ARDUINO_PRO_MICRO" H 2550 3300 50  0001 C CNN
-F 3 "" H 2550 3300 50  0001 C CNN
-	1    2600 3200
+P 1750 1600
+F 0 "U1" H 1750 2415 50  0000 C CNN
+F 1 "Elite C" H 1750 2324 50  0000 C CNN
+F 2 "footprints:Elite-C" H 1700 1700 50  0001 C CNN
+F 3 "" H 1700 1700 50  0001 C CNN
+	1    1750 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -986,6 +986,16 @@ Wire Wire Line
 	7750 2700 7750 3400
 Wire Wire Line
 	7350 2900 7550 2900
-NoConn ~ 1950 2650
-NoConn ~ 1950 2750
+NoConn ~ 1050 1050
+NoConn ~ 1050 1150
+Text GLabel 850  1250 2    50   Output ~ 0
+GND
+Text GLabel 850  1350 2    50   Output ~ 0
+GND
+NoConn ~ 1550 2550
+NoConn ~ 1650 2550
+NoConn ~ 1750 2550
+NoConn ~ 1850 2550
+NoConn ~ 1950 2550
+NoConn ~ 2450 1050
 $EndSCHEMATC

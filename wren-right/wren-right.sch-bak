@@ -956,34 +956,7 @@ NoConn ~ 3250 3150
 NoConn ~ 3250 3050
 Text GLabel 1950 3750 0    50   Input ~ 0
 COL5
-$Comp
-L Device:Rotary_Encoder_Switch ENC1
-U 1 1 60751B50
-P 2200 5800
-F 0 "ENC1" H 2200 5433 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 2200 5524 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 2050 5960 50  0001 C CNN
-F 3 "~" H 2200 6060 50  0001 C CNN
-	1    2200 5800
-	-1   0    0    1   
-$EndComp
 NoConn ~ 3250 3250
-Text GLabel 7750 2700 2    50   Input ~ 0
-ENC1-IN
-Text GLabel 7850 2900 2    50   Input ~ 0
-ENC1-OUT
-Wire Wire Line
-	7350 2900 7850 2900
-Text GLabel 1900 5700 0    50   Input ~ 0
-ENC1-IN
-Text GLabel 1900 5900 0    50   Input ~ 0
-ENC1-Out
-Text GLabel 2500 5800 2    50   Input ~ 0
-GND
-Text GLabel 2500 5700 2    50   Input ~ 0
-ENC1-RIGHT
-Text GLabel 2500 5900 2    50   Input ~ 0
-ENC1-LEFT
 $Comp
 L random-keyboard-parts:ProMicro_2 U1
 U 1 1 6071F7CA
@@ -995,10 +968,24 @@ F 3 "" H 2550 3300 50  0001 C CNN
 	1    2600 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 2650 0    50   Input ~ 0
-ENC1-LEFT
-Text GLabel 1950 2750 0    50   Input ~ 0
-ENC1-RIGHT
 Wire Wire Line
-	7750 2350 7750 3400
+	7750 2350 7750 2700
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 6073C7A0
+P 7600 2750
+F 0 "MX6" H 7633 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 7633 2899 20  0000 C CNN
+F 2 "MX_Only:MX-1U" H 6975 2725 60  0001 C CNN
+F 3 "" H 6975 2725 60  0001 C CNN
+	1    7600 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 7750 2700
+Wire Wire Line
+	7750 2700 7750 3400
+Wire Wire Line
+	7350 2900 7550 2900
+NoConn ~ 1950 2650
+NoConn ~ 1950 2750
 $EndSCHEMATC
