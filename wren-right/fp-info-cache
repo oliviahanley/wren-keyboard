@@ -1,4 +1,4 @@
-19287224275867605
+19288758935899605
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83733,6 +83733,13 @@ ARDUINO_PRO_MICRO
 0
 24
 24
+footprints
+D_SOD123_axial
+
+
+0
+6
+2
 footprints
 Elite-C
 
