@@ -24,17 +24,6 @@ F 3 "~" H 2650 4350 50  0001 C CNN
 	1    2650 4350
 	1    0    0    -1  
 $EndComp
-$Comp
-L keebio:Elite-C U1
-U 1 1 6071F7CA
-P 2500 2000
-F 0 "U1" H 2500 2815 50  0000 C CNN
-F 1 "Elite-C" H 2500 2724 50  0000 C CNN
-F 2 "footprints:Elite-C" H 2450 2100 50  0001 C CNN
-F 3 "" H 2450 2100 50  0001 C CNN
-	1    2500 2000
-	1    0    0    -1  
-$EndComp
 Text GLabel 1800 1850 0    50   BiDi ~ 0
 SDA
 Text GLabel 1800 1950 0    50   BiDi ~ 0
@@ -53,7 +42,7 @@ U 1 1 60729D01
 P 3000 4350
 F 0 "R1" H 3059 4396 50  0000 L CNN
 F 1 "2.2kOhms" H 3059 4305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" H 3000 4350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" H 3000 4350 50  0001 C CNN
 F 3 "~" H 3000 4350 50  0001 C CNN
 	1    3000 4350
 	1    0    0    -1  
@@ -1464,7 +1453,7 @@ U 1 1 6072E460
 P 3500 4450
 F 0 "R2" H 3559 4496 50  0000 L CNN
 F 1 "10kOhms" H 3559 4405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" H 3500 4450 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" H 3500 4450 50  0001 C CNN
 F 3 "~" H 3500 4450 50  0001 C CNN
 	1    3500 4450
 	1    0    0    -1  
@@ -1478,8 +1467,6 @@ GND
 Text GLabel 1600 1750 2    50   Output ~ 0
 GND
 NoConn ~ 3200 1450
-NoConn ~ 2300 2950
-NoConn ~ 2400 2950
 NoConn ~ 2500 2950
 NoConn ~ 2600 2950
 NoConn ~ 2700 2950
@@ -1524,4 +1511,23 @@ Text GLabel 4850 5700 0    50   Input ~ 0
 ENC1-OUT
 Text GLabel 5250 5500 0    50   Input ~ 0
 ENC1-IN
+Text GLabel 1400 6250 0    50   Input ~ 0
+LEFT
+Text GLabel 1400 6450 0    50   Input ~ 0
+RIGHT
+$Comp
+L keebio:Elite-C U1
+U 1 1 6071F7CA
+P 2500 2000
+F 0 "U1" H 2500 2815 50  0000 C CNN
+F 1 "Elite-C" H 2500 2724 50  0000 C CNN
+F 2 "footprints:Elite-C" H 2450 2100 50  0001 C CNN
+F 3 "" H 2450 2100 50  0001 C CNN
+	1    2500 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2300 2950 3    50   Input ~ 0
+LEFT
+Text GLabel 2400 2950 3    50   Input ~ 0
+RIGHT
 $EndSCHEMATC

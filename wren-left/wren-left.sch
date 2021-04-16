@@ -24,17 +24,6 @@ F 3 "~" H 2650 4350 50  0001 C CNN
 	1    2650 4350
 	1    0    0    -1  
 $EndComp
-$Comp
-L keebio:Elite-C U1
-U 1 1 6071F7CA
-P 2500 2000
-F 0 "U1" H 2500 2815 50  0000 C CNN
-F 1 "Elite-C" H 2500 2724 50  0000 C CNN
-F 2 "footprints:Elite-C" H 2450 2100 50  0001 C CNN
-F 3 "" H 2450 2100 50  0001 C CNN
-	1    2500 2000
-	1    0    0    -1  
-$EndComp
 Text GLabel 1800 1850 0    50   BiDi ~ 0
 SDA
 Text GLabel 1800 1950 0    50   BiDi ~ 0
@@ -1478,11 +1467,7 @@ GND
 Text GLabel 1600 1750 2    50   Output ~ 0
 GND
 NoConn ~ 3200 1450
-NoConn ~ 2300 2950
-NoConn ~ 2400 2950
 NoConn ~ 2500 2950
-NoConn ~ 2600 2950
-NoConn ~ 2700 2950
 $Comp
 L Device:Rotary_Encoder_Switch ENC1
 U 1 1 60759DC4
@@ -1524,4 +1509,25 @@ Text GLabel 4850 5700 0    50   Input ~ 0
 ENC1-OUT
 Text GLabel 5250 5500 0    50   Input ~ 0
 ENC1-IN
+Text GLabel 1400 6250 0    50   Input ~ 0
+LEFT
+Text GLabel 1400 6450 0    50   Input ~ 0
+RIGHT
+$Comp
+L keebio:Elite-C U1
+U 1 1 6071F7CA
+P 2500 2000
+F 0 "U1" H 2500 2815 50  0000 C CNN
+F 1 "Elite-C" H 2500 2724 50  0000 C CNN
+F 2 "footprints:Elite-C" H 2450 2100 50  0001 C CNN
+F 3 "" H 2450 2100 50  0001 C CNN
+	1    2500 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 2950 3    50   Input ~ 0
+LEFT
+Text GLabel 2600 2950 3    50   Input ~ 0
+RIGHT
+NoConn ~ 2300 2950
+NoConn ~ 2400 2950
 $EndSCHEMATC
