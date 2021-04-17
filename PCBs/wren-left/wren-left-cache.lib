@@ -120,6 +120,21 @@ X ROW 2 -50 -150 100 U 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Mechanical_MountingHole
+#
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
 # Switch_SW_Push
 #
 DEF Switch_SW_Push SW 0 40 N N 1 F N
@@ -137,11 +152,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# keebio_Elite-C
+# wren-left-rescue_Elite-C-keebio
 #
-DEF keebio_Elite-C U 0 40 Y Y 1 F N
+DEF wren-left-rescue_Elite-C-keebio U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "keebio_Elite-C" 0 100 60 H V C CNN
+F1 "wren-left-rescue_Elite-C-keebio" 0 100 60 H V C CNN
 F2 "" 1050 -2500 60 V I C CNN
 F3 "" 1050 -2500 60 V I C CNN
 DRAW

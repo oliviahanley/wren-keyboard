@@ -965,21 +965,21 @@ F 3 "~" V 9350 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX41
-U 1 1 6072AAD1
+L MX_Alps_Hybrid:MX-NoLED MX42
+U 1 1 6072B58C
 P 5600 5550
-F 0 "MX41" H 5633 5773 60  0000 C CNN
+F 0 "MX42" H 5633 5773 60  0000 C CNN
 F 1 "MX-NoLED" H 5633 5699 20  0000 C CNN
-F 2 "MX_Only:MX-2U-FLIPPED-ReversedStabilizers" H 4975 5525 60  0001 C CNN
+F 2 "MX_Only:MX-1U" H 4975 5525 60  0001 C CNN
 F 3 "" H 4975 5525 60  0001 C CNN
 	1    5600 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX42
-U 1 1 6072B58C
+L MX_Alps_Hybrid:MX-NoLED MX43
+U 1 1 6072BC7D
 P 6100 5550
-F 0 "MX42" H 6133 5773 60  0000 C CNN
+F 0 "MX43" H 6133 5773 60  0000 C CNN
 F 1 "MX-NoLED" H 6133 5699 20  0000 C CNN
 F 2 "MX_Only:MX-1U" H 5475 5525 60  0001 C CNN
 F 3 "" H 5475 5525 60  0001 C CNN
@@ -987,25 +987,14 @@ F 3 "" H 5475 5525 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX43
-U 1 1 6072BC7D
+L MX_Alps_Hybrid:MX-NoLED MX44
+U 1 1 6072C094
 P 6600 5550
-F 0 "MX43" H 6633 5773 60  0000 C CNN
+F 0 "MX44" H 6633 5773 60  0000 C CNN
 F 1 "MX-NoLED" H 6633 5699 20  0000 C CNN
 F 2 "MX_Only:MX-1U" H 5975 5525 60  0001 C CNN
 F 3 "" H 5975 5525 60  0001 C CNN
 	1    6600 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX44
-U 1 1 6072C094
-P 7100 5550
-F 0 "MX44" H 7133 5773 60  0000 C CNN
-F 1 "MX-NoLED" H 7133 5699 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 6475 5525 60  0001 C CNN
-F 3 "" H 6475 5525 60  0001 C CNN
-	1    7100 5550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1468,20 +1457,18 @@ Text GLabel 1600 1750 2    50   Output ~ 0
 GND
 NoConn ~ 3200 1450
 NoConn ~ 2500 2950
-NoConn ~ 2600 2950
-NoConn ~ 2700 2950
 $Comp
 L Device:Rotary_Encoder_Switch ENC1
 U 1 1 60759DC4
-P 1700 6350
-F 0 "ENC1" H 1700 6717 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 1700 6626 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 1550 6510 50  0001 C CNN
-F 3 "~" H 1700 6610 50  0001 C CNN
-	1    1700 6350
+P 2550 5700
+F 0 "ENC1" H 2550 6067 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 2550 5976 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 2400 5860 50  0001 C CNN
+F 3 "~" H 2550 5960 50  0001 C CNN
+	1    2550 5700
 	1    0    0    -1  
 $EndComp
-Text GLabel 1400 6350 0    50   Input ~ 0
+Text GLabel 2250 5700 0    50   Input ~ 0
 GND
 Connection ~ 7250 4800
 Wire Wire Line
@@ -1489,6 +1476,47 @@ Wire Wire Line
 Wire Wire Line
 	5250 4800 5250 5500
 Connection ~ 5250 4800
+Connection ~ 4850 5900
+Wire Wire Line
+	4850 5900 5350 5900
+Text GLabel 2850 5600 2    50   Input ~ 0
+ENC1-IN
+Text GLabel 2850 5800 2    50   Input ~ 0
+ENC1-OUT
+Text GLabel 7050 5700 2    50   Input ~ 0
+ENC1-IN
+Text GLabel 2250 5600 0    50   Input ~ 0
+LEFT
+Text GLabel 2250 5800 0    50   Input ~ 0
+RIGHT
+$Comp
+L wren-left-rescue:Elite-C-keebio U1
+U 1 1 6071F7CA
+P 2500 2000
+F 0 "U1" H 2500 2815 50  0000 C CNN
+F 1 "Elite-C" H 2500 2724 50  0000 C CNN
+F 2 "footprints:Elite-C" H 2450 2100 50  0001 C CNN
+F 3 "" H 2450 2100 50  0001 C CNN
+	1    2500 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 2950 3    50   Input ~ 0
+LEFT
+Text GLabel 2600 2950 3    50   Input ~ 0
+RIGHT
+NoConn ~ 2300 2950
+NoConn ~ 2400 2950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX41
+U 1 1 6072AAD1
+P 5100 5550
+F 0 "MX41" H 5133 5773 60  0000 C CNN
+F 1 "MX-NoLED" H 5133 5699 20  0000 C CNN
+F 2 "MX_Only:MX-2U-FLIPPED-ReversedStabilizers" H 4475 5525 60  0001 C CNN
+F 3 "" H 4475 5525 60  0001 C CNN
+	1    5100 5550
+	1    0    0    -1  
+$EndComp
 $Comp
 L Device:D_Small D41
 U 1 1 607E2461
@@ -1500,34 +1528,83 @@ F 3 "~" V 4850 5800 50  0001 C CNN
 	1    4850 5800
 	0    -1   -1   0   
 $EndComp
-Connection ~ 4850 5900
-Wire Wire Line
-	4850 5900 5350 5900
-Text GLabel 2000 6250 2    50   Input ~ 0
-ENC1-IN
-Text GLabel 2000 6450 2    50   Input ~ 0
+Text GLabel 7250 5500 0    50   Input ~ 0
 ENC1-OUT
-Text GLabel 4850 5700 0    50   Input ~ 0
-ENC1-OUT
-Text GLabel 5250 5500 0    50   Input ~ 0
-ENC1-IN
-Text GLabel 1400 6250 0    50   Input ~ 0
-LEFT
-Text GLabel 1400 6450 0    50   Input ~ 0
-RIGHT
 $Comp
-L keebio:Elite-C U1
-U 1 1 6071F7CA
-P 2500 2000
-F 0 "U1" H 2500 2815 50  0000 C CNN
-F 1 "Elite-C" H 2500 2724 50  0000 C CNN
-F 2 "footprints:Elite-C" H 2450 2100 50  0001 C CNN
-F 3 "" H 2450 2100 50  0001 C CNN
-	1    2500 2000
+L Mechanical:MountingHole H3
+U 1 1 607DC9F0
+P 2500 7000
+F 0 "H3" H 2600 7046 50  0000 L CNN
+F 1 "MountingHole" H 2600 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2500 7000 50  0001 C CNN
+F 3 "~" H 2500 7000 50  0001 C CNN
+	1    2500 7000
 	1    0    0    -1  
 $EndComp
-Text GLabel 2300 2950 3    50   Input ~ 0
-LEFT
-Text GLabel 2400 2950 3    50   Input ~ 0
-RIGHT
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 607DDEC1
+P 2500 7200
+F 0 "H5" H 2600 7246 50  0000 L CNN
+F 1 "MountingHole" H 2600 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2500 7200 50  0001 C CNN
+F 3 "~" H 2500 7200 50  0001 C CNN
+	1    2500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 607DE302
+P 2500 7400
+F 0 "H7" H 2600 7446 50  0000 L CNN
+F 1 "MountingHole" H 2600 7355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2500 7400 50  0001 C CNN
+F 3 "~" H 2500 7400 50  0001 C CNN
+	1    2500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 607DE5EF
+P 2500 6800
+F 0 "H1" H 2600 6846 50  0000 L CNN
+F 1 "MountingHole" H 2600 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2500 6800 50  0001 C CNN
+F 3 "~" H 2500 6800 50  0001 C CNN
+	1    2500 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 607DE9D9
+P 3250 6800
+F 0 "H2" H 3350 6846 50  0000 L CNN
+F 1 "MountingHole" H 3350 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3250 6800 50  0001 C CNN
+F 3 "~" H 3250 6800 50  0001 C CNN
+	1    3250 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 607DED77
+P 3250 7000
+F 0 "H4" H 3350 7046 50  0000 L CNN
+F 1 "MountingHole" H 3350 6955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3250 7000 50  0001 C CNN
+F 3 "~" H 3250 7000 50  0001 C CNN
+	1    3250 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 607DF460
+P 3250 7200
+F 0 "H6" H 3350 7246 50  0000 L CNN
+F 1 "MountingHole" H 3350 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3250 7200 50  0001 C CNN
+F 3 "~" H 3250 7200 50  0001 C CNN
+	1    3250 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
