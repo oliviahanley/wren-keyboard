@@ -1,6 +1,6 @@
 # Wren Keyboard
 ## Introduction
-The Wren Keyboard is a 6x5+4 key asymmetrical split ergonomic keyboard with a southpaw numpad. It takes heavy inspiration from [Afternoon Lab's Breeze keyboard](https://afternoonlabs.com/breeze/), but adds rotary encoder support and an additional row on the larger half.
+The Wren Keyboard is a 6x5+4 key asymmetrical split ergonomic keyboard with a southpaw numpad. It takes heavy inspiration from [Afternoon Labs' Breeze keyboard](https://afternoonlabs.com/breeze/), but adds rotary encoder support and an additional column on the larger half.
 
 My primary keyboard for the last few years has been Prime Keyboards' prime_o, before which I used a handwired Planck. On both I made pretty heavy use of the numpad. I grew to appreciate the prime\_o's physical one, though, mostly because I spend a lot of time in Excel at my day job and like using the mouse and numpad simultaneously. I've been wanting to switch to ergo for a while, but I was annoyed by the thought of having to use a separate numpad to recreate that experience. This design came from that annoyance.
 
