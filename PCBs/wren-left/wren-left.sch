@@ -1536,7 +1536,7 @@ U 1 1 607DC9F0
 P 2500 7000
 F 0 "H3" H 2600 7046 50  0000 L CNN
 F 1 "MountingHole" H 2600 6955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2500 7000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 2500 7000 50  0001 C CNN
 F 3 "~" H 2500 7000 50  0001 C CNN
 	1    2500 7000
 	1    0    0    -1  
@@ -1547,7 +1547,7 @@ U 1 1 607DDEC1
 P 2500 7200
 F 0 "H5" H 2600 7246 50  0000 L CNN
 F 1 "MountingHole" H 2600 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2500 7200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 2500 7200 50  0001 C CNN
 F 3 "~" H 2500 7200 50  0001 C CNN
 	1    2500 7200
 	1    0    0    -1  
@@ -1558,7 +1558,7 @@ U 1 1 607DE302
 P 2500 7400
 F 0 "H7" H 2600 7446 50  0000 L CNN
 F 1 "MountingHole" H 2600 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2500 7400 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 2500 7400 50  0001 C CNN
 F 3 "~" H 2500 7400 50  0001 C CNN
 	1    2500 7400
 	1    0    0    -1  
@@ -1569,7 +1569,7 @@ U 1 1 607DE5EF
 P 2500 6800
 F 0 "H1" H 2600 6846 50  0000 L CNN
 F 1 "MountingHole" H 2600 6755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2500 6800 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 2500 6800 50  0001 C CNN
 F 3 "~" H 2500 6800 50  0001 C CNN
 	1    2500 6800
 	1    0    0    -1  
@@ -1580,7 +1580,7 @@ U 1 1 607DE9D9
 P 3250 6800
 F 0 "H2" H 3350 6846 50  0000 L CNN
 F 1 "MountingHole" H 3350 6755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3250 6800 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 3250 6800 50  0001 C CNN
 F 3 "~" H 3250 6800 50  0001 C CNN
 	1    3250 6800
 	1    0    0    -1  
@@ -1591,7 +1591,7 @@ U 1 1 607DED77
 P 3250 7000
 F 0 "H4" H 3350 7046 50  0000 L CNN
 F 1 "MountingHole" H 3350 6955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3250 7000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 3250 7000 50  0001 C CNN
 F 3 "~" H 3250 7000 50  0001 C CNN
 	1    3250 7000
 	1    0    0    -1  
@@ -1602,7 +1602,7 @@ U 1 1 607DF460
 P 3250 7200
 F 0 "H6" H 3350 7246 50  0000 L CNN
 F 1 "MountingHole" H 3350 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3250 7200 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 3250 7200 50  0001 C CNN
 F 3 "~" H 3250 7200 50  0001 C CNN
 	1    3250 7200
 	1    0    0    -1  

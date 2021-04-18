@@ -152,11 +152,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# wren-right-rescue_Elite-C-keebio-wren-left-rescue
+# wren-left-rescue_Elite-C-keebio
 #
-DEF wren-right-rescue_Elite-C-keebio-wren-left-rescue U 0 40 Y Y 1 F N
+DEF wren-left-rescue_Elite-C-keebio U 0 40 Y Y 1 F N
 F0 "U" 0 0 60 H V C CNN
-F1 "wren-right-rescue_Elite-C-keebio-wren-left-rescue" 0 100 60 H V C CNN
+F1 "wren-left-rescue_Elite-C-keebio" 0 100 60 H V C CNN
 F2 "" 1050 -2500 60 V I C CNN
 F3 "" 1050 -2500 60 V I C CNN
 DRAW

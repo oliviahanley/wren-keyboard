@@ -184,17 +184,6 @@ F 3 "~" V 7350 3000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D7
-U 1 1 60751E85
-P 7850 3000
-F 0 "D7" V 7896 2930 50  0000 R CNN
-F 1 "D_Small" V 7805 2930 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 7850 3000 50  0001 C CNN
-F 3 "~" V 7850 3000 50  0001 C CNN
-	1    7850 3000
-	0    -1   -1   0   
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED MX4
 U 1 1 607523CD
 P 6600 2750
@@ -226,83 +215,6 @@ F 2 "MX_Only:MX-1U" H 6975 2725 60  0001 C CNN
 F 3 "" H 6975 2725 60  0001 C CNN
 	1    7600 2750
 	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX7
-U 1 1 60753A67
-P 8100 2750
-F 0 "MX7" H 8133 2973 60  0000 C CNN
-F 1 "MX-NoLED" H 8133 2899 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 7475 2725 60  0001 C CNN
-F 3 "" H 7475 2725 60  0001 C CNN
-	1    8100 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D8
-U 1 1 607543C1
-P 8350 3000
-F 0 "D8" V 8396 2930 50  0000 R CNN
-F 1 "D_Small" V 8305 2930 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 8350 3000 50  0001 C CNN
-F 3 "~" V 8350 3000 50  0001 C CNN
-	1    8350 3000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D9
-U 1 1 607549B3
-P 8850 3000
-F 0 "D9" V 8896 2930 50  0000 R CNN
-F 1 "D_Small" V 8805 2930 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 8850 3000 50  0001 C CNN
-F 3 "~" V 8850 3000 50  0001 C CNN
-	1    8850 3000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX8
-U 1 1 60754CAD
-P 8600 2750
-F 0 "MX8" H 8633 2973 60  0000 C CNN
-F 1 "MX-NoLED" H 8633 2899 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 7975 2725 60  0001 C CNN
-F 3 "" H 7975 2725 60  0001 C CNN
-	1    8600 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX9
-U 1 1 6075540C
-P 9100 2750
-F 0 "MX9" H 9133 2973 60  0000 C CNN
-F 1 "MX-NoLED" H 9133 2899 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 8475 2725 60  0001 C CNN
-F 3 "" H 8475 2725 60  0001 C CNN
-	1    9100 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX10
-U 1 1 60755D23
-P 9600 2750
-F 0 "MX10" H 9633 2973 60  0000 C CNN
-F 1 "MX-NoLED" H 9633 2899 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 8975 2725 60  0001 C CNN
-F 3 "" H 8975 2725 60  0001 C CNN
-	1    9600 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Small D10
-U 1 1 60756404
-P 9350 3000
-F 0 "D10" V 9396 2930 50  0000 R CNN
-F 1 "D_Small" V 9305 2930 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 9350 3000 50  0001 C CNN
-F 3 "~" V 9350 3000 50  0001 C CNN
-	1    9350 3000
-	0    -1   -1   0   
 $EndComp
 $Comp
 L MX_Alps_Hybrid:MX-NoLED MX11
@@ -368,50 +280,6 @@ F 1 "MX-NoLED" H 7633 3599 20  0000 C CNN
 F 2 "MX_Only:MX-1U" H 6975 3425 60  0001 C CNN
 F 3 "" H 6975 3425 60  0001 C CNN
 	1    7600 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX17
-U 1 1 6075A86E
-P 8100 3450
-F 0 "MX17" H 8133 3673 60  0000 C CNN
-F 1 "MX-NoLED" H 8133 3599 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 7475 3425 60  0001 C CNN
-F 3 "" H 7475 3425 60  0001 C CNN
-	1    8100 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX18
-U 1 1 6075AD57
-P 8600 3450
-F 0 "MX18" H 8633 3673 60  0000 C CNN
-F 1 "MX-NoLED" H 8633 3599 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 7975 3425 60  0001 C CNN
-F 3 "" H 7975 3425 60  0001 C CNN
-	1    8600 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX19
-U 1 1 6075B74F
-P 9100 3450
-F 0 "MX19" H 9133 3673 60  0000 C CNN
-F 1 "MX-NoLED" H 9133 3599 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 8475 3425 60  0001 C CNN
-F 3 "" H 8475 3425 60  0001 C CNN
-	1    9100 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX20
-U 1 1 6075BA62
-P 9600 3450
-F 0 "MX20" H 9633 3673 60  0000 C CNN
-F 1 "MX-NoLED" H 9633 3599 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 8975 3425 60  0001 C CNN
-F 3 "" H 8975 3425 60  0001 C CNN
-	1    9600 3450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -481,50 +349,6 @@ F 3 "~" V 7350 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D17
-U 1 1 6075EB7B
-P 7850 3700
-F 0 "D17" V 7896 3630 50  0000 R CNN
-F 1 "D_Small" V 7805 3630 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 7850 3700 50  0001 C CNN
-F 3 "~" V 7850 3700 50  0001 C CNN
-	1    7850 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D18
-U 1 1 6075F5B4
-P 8350 3700
-F 0 "D18" V 8396 3630 50  0000 R CNN
-F 1 "D_Small" V 8305 3630 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 8350 3700 50  0001 C CNN
-F 3 "~" V 8350 3700 50  0001 C CNN
-	1    8350 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D19
-U 1 1 6075FCBE
-P 8850 3700
-F 0 "D19" V 8896 3630 50  0000 R CNN
-F 1 "D_Small" V 8805 3630 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 8850 3700 50  0001 C CNN
-F 3 "~" V 8850 3700 50  0001 C CNN
-	1    8850 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D20
-U 1 1 6076015C
-P 9350 3700
-F 0 "D20" V 9396 3630 50  0000 R CNN
-F 1 "D_Small" V 9305 3630 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 9350 3700 50  0001 C CNN
-F 3 "~" V 9350 3700 50  0001 C CNN
-	1    9350 3700
-	0    -1   -1   0   
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED MX21
 U 1 1 607606EA
 P 5100 4150
@@ -588,50 +412,6 @@ F 1 "MX-NoLED" H 7633 4299 20  0000 C CNN
 F 2 "MX_Only:MX-1U" H 6975 4125 60  0001 C CNN
 F 3 "" H 6975 4125 60  0001 C CNN
 	1    7600 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX27
-U 1 1 60763A63
-P 8100 4150
-F 0 "MX27" H 8133 4373 60  0000 C CNN
-F 1 "MX-NoLED" H 8133 4299 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 7475 4125 60  0001 C CNN
-F 3 "" H 7475 4125 60  0001 C CNN
-	1    8100 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX28
-U 1 1 60763F5B
-P 8600 4150
-F 0 "MX28" H 8633 4373 60  0000 C CNN
-F 1 "MX-NoLED" H 8633 4299 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 7975 4125 60  0001 C CNN
-F 3 "" H 7975 4125 60  0001 C CNN
-	1    8600 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX29
-U 1 1 60764584
-P 9100 4150
-F 0 "MX29" H 9133 4373 60  0000 C CNN
-F 1 "MX-NoLED" H 9133 4299 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 8475 4125 60  0001 C CNN
-F 3 "" H 8475 4125 60  0001 C CNN
-	1    9100 4150
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX30
-U 1 1 60764DA1
-P 9600 4150
-F 0 "MX30" H 9633 4373 60  0000 C CNN
-F 1 "MX-NoLED" H 9633 4299 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 8975 4125 60  0001 C CNN
-F 3 "" H 8975 4125 60  0001 C CNN
-	1    9600 4150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -701,50 +481,6 @@ F 3 "~" V 7350 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:D_Small D27
-U 1 1 607678CF
-P 7850 4400
-F 0 "D27" V 7896 4330 50  0000 R CNN
-F 1 "D_Small" V 7805 4330 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 7850 4400 50  0001 C CNN
-F 3 "~" V 7850 4400 50  0001 C CNN
-	1    7850 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D28
-U 1 1 60767F2A
-P 8350 4400
-F 0 "D28" V 8396 4330 50  0000 R CNN
-F 1 "D_Small" V 8305 4330 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 8350 4400 50  0001 C CNN
-F 3 "~" V 8350 4400 50  0001 C CNN
-	1    8350 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D29
-U 1 1 607683EB
-P 8850 4400
-F 0 "D29" V 8896 4330 50  0000 R CNN
-F 1 "D_Small" V 8805 4330 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 8850 4400 50  0001 C CNN
-F 3 "~" V 8850 4400 50  0001 C CNN
-	1    8850 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D30
-U 1 1 607688AC
-P 9350 4400
-F 0 "D30" V 9396 4330 50  0000 R CNN
-F 1 "D_Small" V 9305 4330 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 9350 4400 50  0001 C CNN
-F 3 "~" V 9350 4400 50  0001 C CNN
-	1    9350 4400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L MX_Alps_Hybrid:MX-NoLED MX31
 U 1 1 60720CBF
 P 5100 4850
@@ -811,50 +547,6 @@ F 3 "" H 6975 4825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX37
-U 1 1 60723A4D
-P 8100 4850
-F 0 "MX37" H 8133 5073 60  0000 C CNN
-F 1 "MX-NoLED" H 8133 4999 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 7475 4825 60  0001 C CNN
-F 3 "" H 7475 4825 60  0001 C CNN
-	1    8100 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX38
-U 1 1 60724260
-P 8600 4850
-F 0 "MX38" H 8633 5073 60  0000 C CNN
-F 1 "MX-NoLED" H 8633 4999 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 7975 4825 60  0001 C CNN
-F 3 "" H 7975 4825 60  0001 C CNN
-	1    8600 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX39
-U 1 1 607249F6
-P 9100 4850
-F 0 "MX39" H 9133 5073 60  0000 C CNN
-F 1 "MX-NoLED" H 9133 4999 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 8475 4825 60  0001 C CNN
-F 3 "" H 8475 4825 60  0001 C CNN
-	1    9100 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX40
-U 1 1 607253A3
-P 9600 4850
-F 0 "MX40" H 9633 5073 60  0000 C CNN
-F 1 "MX-NoLED" H 9633 4999 20  0000 C CNN
-F 2 "MX_Only:MX-1U" H 8975 4825 60  0001 C CNN
-F 3 "" H 8975 4825 60  0001 C CNN
-	1    9600 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small D31
 U 1 1 60726C83
 P 4850 5100
@@ -918,50 +610,6 @@ F 1 "D_Small" V 7305 5030 50  0000 R CNN
 F 2 "footprints:D_SOD123_axial" V 7350 5100 50  0001 C CNN
 F 3 "~" V 7350 5100 50  0001 C CNN
 	1    7350 5100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D37
-U 1 1 607292FA
-P 7900 5100
-F 0 "D37" V 7946 5030 50  0000 R CNN
-F 1 "D_Small" V 7855 5030 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 7900 5100 50  0001 C CNN
-F 3 "~" V 7900 5100 50  0001 C CNN
-	1    7900 5100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D38
-U 1 1 607298D8
-P 8350 5100
-F 0 "D38" V 8396 5030 50  0000 R CNN
-F 1 "D_Small" V 8305 5030 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 8350 5100 50  0001 C CNN
-F 3 "~" V 8350 5100 50  0001 C CNN
-	1    8350 5100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D39
-U 1 1 60729E6B
-P 8850 5100
-F 0 "D39" V 8896 5030 50  0000 R CNN
-F 1 "D_Small" V 8805 5030 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 8850 5100 50  0001 C CNN
-F 3 "~" V 8850 5100 50  0001 C CNN
-	1    8850 5100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D_Small D40
-U 1 1 6072A4C6
-P 9350 5100
-F 0 "D40" V 9396 5030 50  0000 R CNN
-F 1 "D_Small" V 9305 5030 50  0000 R CNN
-F 2 "footprints:D_SOD123_axial" V 9350 5100 50  0001 C CNN
-F 3 "~" V 9350 5100 50  0001 C CNN
-	1    9350 5100
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1054,14 +702,6 @@ Wire Wire Line
 Wire Wire Line
 	7350 2900 7550 2900
 Wire Wire Line
-	7850 2900 8050 2900
-Wire Wire Line
-	8350 2900 8550 2900
-Wire Wire Line
-	8850 2900 9050 2900
-Wire Wire Line
-	9350 2900 9550 2900
-Wire Wire Line
 	4850 3600 5050 3600
 Wire Wire Line
 	5350 3600 5550 3600
@@ -1073,14 +713,6 @@ Wire Wire Line
 	6850 3600 7050 3600
 Wire Wire Line
 	7350 3600 7550 3600
-Wire Wire Line
-	7850 3600 8050 3600
-Wire Wire Line
-	8350 3600 8550 3600
-Wire Wire Line
-	8850 3600 9050 3600
-Wire Wire Line
-	9350 3600 9550 3600
 Wire Wire Line
 	4850 4300 5050 4300
 Wire Wire Line
@@ -1094,14 +726,6 @@ Wire Wire Line
 Wire Wire Line
 	7350 4300 7550 4300
 Wire Wire Line
-	7850 4300 8050 4300
-Wire Wire Line
-	8350 4300 8550 4300
-Wire Wire Line
-	8850 4300 9050 4300
-Wire Wire Line
-	9350 4300 9550 4300
-Wire Wire Line
 	4850 5000 5050 5000
 Wire Wire Line
 	5350 5000 5550 5000
@@ -1113,14 +737,6 @@ Wire Wire Line
 	6850 5000 7050 5000
 Wire Wire Line
 	7350 5000 7550 5000
-Wire Wire Line
-	7900 5000 8050 5000
-Wire Wire Line
-	8350 5000 8550 5000
-Wire Wire Line
-	8850 5000 9050 5000
-Wire Wire Line
-	9350 5000 9550 5000
 Wire Wire Line
 	5350 5700 5550 5700
 Wire Wire Line
@@ -1146,18 +762,6 @@ Wire Wire Line
 Connection ~ 6850 3100
 Wire Wire Line
 	6850 3100 7350 3100
-Connection ~ 7350 3100
-Wire Wire Line
-	7350 3100 7850 3100
-Connection ~ 7850 3100
-Wire Wire Line
-	7850 3100 8350 3100
-Connection ~ 8350 3100
-Wire Wire Line
-	8350 3100 8850 3100
-Connection ~ 8850 3100
-Wire Wire Line
-	8850 3100 9350 3100
 Wire Wire Line
 	4650 3800 4850 3800
 Connection ~ 4850 3800
@@ -1175,18 +779,6 @@ Wire Wire Line
 Connection ~ 6850 3800
 Wire Wire Line
 	6850 3800 7350 3800
-Connection ~ 7350 3800
-Wire Wire Line
-	7350 3800 7850 3800
-Connection ~ 7850 3800
-Wire Wire Line
-	7850 3800 8350 3800
-Connection ~ 8350 3800
-Wire Wire Line
-	8350 3800 8850 3800
-Connection ~ 8850 3800
-Wire Wire Line
-	8850 3800 9350 3800
 Wire Wire Line
 	4650 4500 4850 4500
 Connection ~ 4850 4500
@@ -1204,18 +796,6 @@ Wire Wire Line
 Connection ~ 6850 4500
 Wire Wire Line
 	6850 4500 7350 4500
-Connection ~ 7350 4500
-Wire Wire Line
-	7350 4500 7850 4500
-Connection ~ 7850 4500
-Wire Wire Line
-	7850 4500 8350 4500
-Connection ~ 8350 4500
-Wire Wire Line
-	8350 4500 8850 4500
-Connection ~ 8850 4500
-Wire Wire Line
-	8850 4500 9350 4500
 Wire Wire Line
 	4650 5200 4850 5200
 Connection ~ 4850 5200
@@ -1233,18 +813,6 @@ Wire Wire Line
 Connection ~ 6850 5200
 Wire Wire Line
 	6850 5200 7350 5200
-Connection ~ 7350 5200
-Wire Wire Line
-	7350 5200 7900 5200
-Connection ~ 7900 5200
-Wire Wire Line
-	7900 5200 8350 5200
-Connection ~ 8350 5200
-Wire Wire Line
-	8350 5200 8850 5200
-Connection ~ 8850 5200
-Wire Wire Line
-	8850 5200 9350 5200
 Connection ~ 5350 5900
 Wire Wire Line
 	5350 5900 5850 5900
@@ -1331,50 +899,6 @@ Wire Wire Line
 Connection ~ 7750 4100
 Wire Wire Line
 	7750 4100 7750 4800
-Wire Wire Line
-	8250 4800 8250 4100
-Connection ~ 8250 2700
-Wire Wire Line
-	8250 2700 8250 2350
-Connection ~ 8250 3400
-Wire Wire Line
-	8250 3400 8250 2700
-Connection ~ 8250 4100
-Wire Wire Line
-	8250 4100 8250 3400
-Wire Wire Line
-	8750 2350 8750 2700
-Connection ~ 8750 2700
-Wire Wire Line
-	8750 2700 8750 3400
-Connection ~ 8750 3400
-Wire Wire Line
-	8750 3400 8750 4100
-Connection ~ 8750 4100
-Wire Wire Line
-	8750 4100 8750 4800
-Wire Wire Line
-	9250 2350 9250 2700
-Connection ~ 9250 2700
-Wire Wire Line
-	9250 2700 9250 3400
-Connection ~ 9250 3400
-Wire Wire Line
-	9250 3400 9250 4100
-Connection ~ 9250 4100
-Wire Wire Line
-	9250 4100 9250 4800
-Wire Wire Line
-	9750 2350 9750 2700
-Connection ~ 9750 2700
-Wire Wire Line
-	9750 2700 9750 3400
-Connection ~ 9750 3400
-Wire Wire Line
-	9750 3400 9750 4100
-Connection ~ 9750 4100
-Wire Wire Line
-	9750 4100 9750 4800
 Text GLabel 4650 3100 0    50   Input ~ 0
 ROW0
 Text GLabel 4650 3800 0    50   Input ~ 0
@@ -1397,14 +921,6 @@ Text GLabel 7250 2350 1    50   Input ~ 0
 COL4
 Text GLabel 7750 2350 1    50   Input ~ 0
 COL5
-Text GLabel 8250 2350 1    50   Input ~ 0
-COL6
-Text GLabel 8750 2350 1    50   Input ~ 0
-COL7
-Text GLabel 9250 2350 1    50   Input ~ 0
-COL8
-Text GLabel 9750 2350 1    50   Input ~ 0
-COL9
 Text GLabel 3200 2550 2    50   Input ~ 0
 COL0
 Text GLabel 3200 2450 2    50   Input ~ 0
@@ -1417,25 +933,16 @@ Text GLabel 3200 2150 2    50   Input ~ 0
 COL4
 Text GLabel 3200 2050 2    50   Input ~ 0
 COL5
-Text GLabel 3200 1950 2    50   Input ~ 0
-COL6
-Text GLabel 3200 1850 2    50   Input ~ 0
-COL7
-Text GLabel 1800 2250 0    50   Input ~ 0
-COL8
-Text GLabel 1800 2350 0    50   Input ~ 0
-COL9
 Text GLabel 1800 1450 0    50   Input ~ 0
 ROW0
-Text GLabel 1800 1550 0    50   Input ~ 0
+Text GLabel 1800 2250 0    50   Input ~ 0
 ROW1
-Text GLabel 1800 2050 0    50   Input ~ 0
+Text GLabel 1800 2350 0    50   Input ~ 0
 ROW2
-Text GLabel 1800 2150 0    50   Input ~ 0
+Text GLabel 1800 2450 0    50   Input ~ 0
 ROW3
 Text GLabel 1800 2550 0    50   Input ~ 0
 ROW4
-NoConn ~ 1800 2450
 $Comp
 L Device:R_Small R2
 U 1 1 6072E460
@@ -1490,7 +997,7 @@ LEFT
 Text GLabel 2250 5800 0    50   Input ~ 0
 RIGHT
 $Comp
-L wren-left-rescue:Elite-C-keebio U1
+L wren-right-rescue:Elite-C-keebio-wren-left-rescue U1
 U 1 1 6071F7CA
 P 2500 2000
 F 0 "U1" H 2500 2815 50  0000 C CNN
@@ -1500,9 +1007,9 @@ F 3 "" H 2450 2100 50  0001 C CNN
 	1    2500 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 2950 3    50   Input ~ 0
+Text GLabel 3200 1950 2    50   Input ~ 0
 LEFT
-Text GLabel 2600 2950 3    50   Input ~ 0
+Text GLabel 3200 1850 2    50   Input ~ 0
 RIGHT
 NoConn ~ 2300 2950
 NoConn ~ 2400 2950
@@ -1536,31 +1043,20 @@ U 1 1 607DC9F0
 P 2500 7000
 F 0 "H3" H 2600 7046 50  0000 L CNN
 F 1 "MountingHole" H 2600 6955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2500 7000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 2500 7000 50  0001 C CNN
 F 3 "~" H 2500 7000 50  0001 C CNN
 	1    2500 7000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H5
-U 1 1 607DDEC1
-P 2500 7200
-F 0 "H5" H 2600 7246 50  0000 L CNN
-F 1 "MountingHole" H 2600 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2500 7200 50  0001 C CNN
-F 3 "~" H 2500 7200 50  0001 C CNN
-	1    2500 7200
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H7
 U 1 1 607DE302
-P 2500 7400
-F 0 "H7" H 2600 7446 50  0000 L CNN
-F 1 "MountingHole" H 2600 7355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2500 7400 50  0001 C CNN
-F 3 "~" H 2500 7400 50  0001 C CNN
-	1    2500 7400
+P 2500 7200
+F 0 "H7" H 2600 7246 50  0000 L CNN
+F 1 "MountingHole" H 2600 7155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 2500 7200 50  0001 C CNN
+F 3 "~" H 2500 7200 50  0001 C CNN
+	1    2500 7200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1569,7 +1065,7 @@ U 1 1 607DE5EF
 P 2500 6800
 F 0 "H1" H 2600 6846 50  0000 L CNN
 F 1 "MountingHole" H 2600 6755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 2500 6800 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 2500 6800 50  0001 C CNN
 F 3 "~" H 2500 6800 50  0001 C CNN
 	1    2500 6800
 	1    0    0    -1  
@@ -1580,33 +1076,27 @@ U 1 1 607DE9D9
 P 3250 6800
 F 0 "H2" H 3350 6846 50  0000 L CNN
 F 1 "MountingHole" H 3350 6755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3250 6800 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 3250 6800 50  0001 C CNN
 F 3 "~" H 3250 6800 50  0001 C CNN
 	1    3250 6800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
-U 1 1 607DED77
+L Mechanical:MountingHole H6
+U 1 1 607DF460
 P 3250 7000
-F 0 "H4" H 3350 7046 50  0000 L CNN
+F 0 "H6" H 3350 7046 50  0000 L CNN
 F 1 "MountingHole" H 3350 6955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3250 7000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 3250 7000 50  0001 C CNN
 F 3 "~" H 3250 7000 50  0001 C CNN
 	1    3250 7000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 607DF460
-P 3250 7200
-F 0 "H6" H 3350 7246 50  0000 L CNN
-F 1 "MountingHole" H 3350 7155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_ISO7380" H 3250 7200 50  0001 C CNN
-F 3 "~" H 3250 7200 50  0001 C CNN
-	1    3250 7200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4850 5700 5050 5700
+NoConn ~ 2600 2950
+NoConn ~ 2700 2950
+NoConn ~ 1800 2050
+NoConn ~ 1800 2150
+NoConn ~ 1800 1550
 $EndSCHEMATC
