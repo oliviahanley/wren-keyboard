@@ -1429,9 +1429,9 @@ Text GLabel 1800 1450 0    50   Input ~ 0
 ROW0
 Text GLabel 1800 1550 0    50   Input ~ 0
 ROW1
-Text GLabel 1800 2050 0    50   Input ~ 0
-ROW2
 Text GLabel 1800 2150 0    50   Input ~ 0
+ROW2
+Text GLabel 1800 2050 0    50   Input ~ 0
 ROW3
 Text GLabel 1800 2550 0    50   Input ~ 0
 ROW4
