@@ -10,8 +10,6 @@ The Wren uses a Pro Micro-compatible footprint, but is designed around the Elite
 ## PCB
 The PCB uses Alps/MX compatible footprints. There isn't hot-swap support yet, in large part because I didn't want to deal with the structural considerations of those sockets. If someone else wanted to make a pull request for a hotswap version, though, I'd be happy to merge it in.
 
-The PCB is also specifically designed around rotary encoders with a diameter less than 0.5". I'm using Kilo 50 sized knobs, but others in a similar size class will work well, too.
-
 ## Case and Plate
 This repository includes a top and bottom plate designed around M2 screws and standoffs. As with the PCB, this plate should be compatible with both Alps and MX switches.
 

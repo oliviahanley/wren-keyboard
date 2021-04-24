@@ -1479,9 +1479,9 @@ Connection ~ 5250 4800
 Connection ~ 4850 5900
 Wire Wire Line
 	4850 5900 5350 5900
-Text GLabel 2850 5800 2    50   Input ~ 0
-ENC1-IN
 Text GLabel 2850 5600 2    50   Input ~ 0
+ENC1-IN
+Text GLabel 2850 5800 2    50   Input ~ 0
 ENC1-OUT
 Text GLabel 7050 5700 2    50   Input ~ 0
 ENC1-IN
