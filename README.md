@@ -1,4 +1,7 @@
 # Wren Keyboard
+
+![wren_preview](/images/wren_preview.png)
+
 ## Introduction
 The Wren Keyboard is a 6x5+4 key asymmetrical split ergonomic keyboard with a southpaw numpad. It takes heavy inspiration from [Afternoon Labs' Breeze keyboard](https://afternoonlabs.com/breeze/), but adds rotary encoder support and an additional column on the larger half.
 
