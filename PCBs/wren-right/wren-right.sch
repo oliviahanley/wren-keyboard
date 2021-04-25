@@ -935,7 +935,7 @@ Text GLabel 3200 2050 2    50   Input ~ 0
 COL5
 Text GLabel 1800 1450 0    50   Input ~ 0
 ROW0
-Text GLabel 1800 2250 0    50   Input ~ 0
+Text GLabel 1800 2050 0    50   Input ~ 0
 ROW1
 Text GLabel 1800 2350 0    50   Input ~ 0
 ROW2
@@ -958,10 +958,6 @@ Text GLabel 3950 4350 2    50   BiDi ~ 0
 SCL
 Text GLabel 3950 4250 2    50   BiDi ~ 0
 SDA
-Text GLabel 1600 1650 2    50   Output ~ 0
-GND
-Text GLabel 1600 1750 2    50   Output ~ 0
-GND
 NoConn ~ 3200 1450
 NoConn ~ 2500 2950
 $Comp
@@ -996,17 +992,6 @@ Text GLabel 2250 5600 0    50   Input ~ 0
 LEFT
 Text GLabel 2250 5800 0    50   Input ~ 0
 RIGHT
-$Comp
-L wren-right-rescue:Elite-C-keebio-wren-left-rescue U1
-U 1 1 6071F7CA
-P 2500 2000
-F 0 "U1" H 2500 2815 50  0000 C CNN
-F 1 "Elite-C" H 2500 2724 50  0000 C CNN
-F 2 "footprints:Elite-C" H 2450 2100 50  0001 C CNN
-F 3 "" H 2450 2100 50  0001 C CNN
-	1    2500 2000
-	1    0    0    -1  
-$EndComp
 Text GLabel 3200 1950 2    50   Input ~ 0
 LEFT
 Text GLabel 3200 1850 2    50   Input ~ 0
@@ -1096,7 +1081,22 @@ Wire Wire Line
 	4850 5700 5050 5700
 NoConn ~ 2600 2950
 NoConn ~ 2700 2950
-NoConn ~ 1800 2050
-NoConn ~ 1800 2150
 NoConn ~ 1800 1550
+NoConn ~ 1800 2150
+NoConn ~ 1800 2250
+$Comp
+L wren-right-rescue:Elite-C-keebio-wren-left-rescue U1
+U 1 1 6071F7CA
+P 2500 2000
+F 0 "U1" H 2500 2815 50  0000 C CNN
+F 1 "Elite-C" H 2500 2724 50  0000 C CNN
+F 2 "footprints:Elite-C" H 2450 2100 50  0001 C CNN
+F 3 "" H 2450 2100 50  0001 C CNN
+	1    2500 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 1650 0    50   Input ~ 0
+GND
+Text GLabel 1800 1750 0    50   Input ~ 0
+GND
 $EndSCHEMATC
