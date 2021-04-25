@@ -15,7 +15,7 @@ The PCB is also specifically designed around rotary encoders with a diameter les
 ## Case and Plate
 This repository includes a top and bottom plate designed around M2 screws and standoffs. As with the PCB, this plate should be compatible with both Alps and MX switches.
 
-Additionally, a 3D printed outer case has been provided. This design wraps the PCB and top plate in a printed outer layer.
+Additionally, a 3D printed outer case has been planned. This design wraps the PCB and top plate in a printed outer layer.
 
 ## Software
 
