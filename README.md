@@ -25,10 +25,76 @@ The PCB is also specifically designed around rotary encoders with a diameter les
 ## Case and Plate
 This repository includes a top and bottom plate designed around M2 screws and standoffs. As with the PCB, this plate is only compatible with MX switches.
 
+To make a complete case, you'll need 7 M2 spacers (5 for the plain board), a top plate, and a bottom plate.
+
 Additionally, a 3D printed outer case has been planned. This design wraps the PCB and top plate in a printed outer layer.
 
 ## Software
 (To be added later.)
 
 ## Cost Estimates
-(To be added later.)
+It should be relatively affordable to have these boards manufactured; here are my cost estimates at JLCPCB as of April 2021:
+- Numpad PCB (5 boards): $14.30
+- Numpad top plate (5 boards): $13.90
+- Numpad bottom plate (5 boards): $14.30
+- Nav PCB (5 boards): $13.40
+- Nav top plate (5 boards): $13.10
+- Nav bottom plate (5 Boards): $13.40
+- Plain PCB (5 boards): $10.70
+- Plain top plate (5 boards): $10.40
+- Plain bottom plate (5 boards): $10.70
+
+## BOM
+### Numpad Board
+To assemble a numpad half, you'll need these parts:
+- 1 Numpad PCB
+- 1 Numpad top plate
+- 1 Numpad bottom plate
+- 1 Elite-C microcontroller
+- 7 8mm M2 threaded separators
+- 14 4mm M2 screws
+- 44 MX-style keyswitches
+- 44 MX keycaps
+- 45 1N4148 diodes
+- 1 Alps EC-11 compatible rotary encoder
+- 1 Rotary encoder knob (0.5" diameter or less)
+- 1 2u PCB-mount cherry stabilizer
+- 1 6mm push-button switch
+- 1 PJ320E TRRS jack
+- 2 4.7kΩ axial resistors
+
+### Nav Cluster Board
+To assemble a nav cluster half, you'll need these parts:
+- 1 Nav cluster PCB
+- 1 Nav cluster top plate
+- 1 Nav cluster bottom plate
+- 1 Pro Micro compatible microcontroller
+- 7 8mm M2 threaded separators
+- 14 4mm M2 screws
+- 38 MX-style keyswitches
+- 38 MX keycaps
+- 39 1N4148 diodes
+- 1 Alps EC-11 compatible rotary encoder
+- 1 Rotary encoder knob (0.5" diameter or less)
+- 1 2u PCB-mount cherry stabilizer
+- 1 6mm push-button switch
+- 1 PJ320E TRRS jack
+- 2 4.7kΩ axial resistors
+
+### Plain Board
+To assemble a nav cluster half, you'll need these parts:
+- 1 Plain PCB
+- 1 Plain top plate
+- 1 Plain bottom plate
+- 1 Pro Micro compatible microcontroller
+- 7 8mm M2 threaded separators
+- 14 4mm M2 screws
+- 28 MX-style keyswitches
+- 28 MX keycaps
+- 29 1N4148 diodes
+- 1 Alps EC-11 compatible rotary encoder
+- 1 Rotary encoder knob (0.5" diameter or less)
+- 1 2u PCB-mount cherry stabilizer
+- 1 6mm push-button switch
+- 1 PJ320E TRRS jack
+- 2 4.7kΩ axial resistors
