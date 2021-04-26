@@ -943,7 +943,6 @@ Text GLabel 1800 2050 0    50   Input ~ 0
 ROW3
 Text GLabel 1800 2550 0    50   Input ~ 0
 ROW4
-NoConn ~ 1800 2450
 $Comp
 L Device:R_Small R2
 U 1 1 6072E460
@@ -1004,9 +1003,9 @@ F 3 "" H 2450 2100 50  0001 C CNN
 	1    2500 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 1800 2250 0    50   Input ~ 0
-LEFT
 Text GLabel 1800 2350 0    50   Input ~ 0
+LEFT
+Text GLabel 1800 2450 0    50   Input ~ 0
 RIGHT
 NoConn ~ 2300 2950
 NoConn ~ 2400 2950
@@ -1097,4 +1096,7 @@ Text GLabel 1800 1750 0    50   Input ~ 0
 GND
 NoConn ~ 2600 2950
 NoConn ~ 2700 2950
+NoConn ~ 3200 1850
+NoConn ~ 3200 1950
+NoConn ~ 1800 2250
 $EndSCHEMATC

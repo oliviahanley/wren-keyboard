@@ -1423,8 +1423,6 @@ Text GLabel 3200 1850 2    50   Input ~ 0
 COL7
 Text GLabel 1800 2250 0    50   Input ~ 0
 COL8
-Text GLabel 1800 2350 0    50   Input ~ 0
-COL9
 Text GLabel 1800 1450 0    50   Input ~ 0
 ROW0
 Text GLabel 1800 1550 0    50   Input ~ 0
@@ -1435,7 +1433,6 @@ Text GLabel 1800 2050 0    50   Input ~ 0
 ROW3
 Text GLabel 1800 2550 0    50   Input ~ 0
 ROW4
-NoConn ~ 1800 2450
 $Comp
 L Device:R_Small R2
 U 1 1 6072E460
@@ -1451,10 +1448,6 @@ Text GLabel 3950 4350 2    50   BiDi ~ 0
 SCL
 Text GLabel 3950 4250 2    50   BiDi ~ 0
 SDA
-Text GLabel 1600 1650 2    50   Output ~ 0
-GND
-Text GLabel 1600 1750 2    50   Output ~ 0
-GND
 NoConn ~ 3200 1450
 NoConn ~ 2500 2950
 $Comp
@@ -1479,9 +1472,9 @@ Connection ~ 5250 4800
 Connection ~ 4850 5900
 Wire Wire Line
 	4850 5900 5350 5900
-Text GLabel 2850 5800 2    50   Input ~ 0
-ENC1-IN
 Text GLabel 2850 5600 2    50   Input ~ 0
+ENC1-IN
+Text GLabel 2850 5800 2    50   Input ~ 0
 ENC1-OUT
 Text GLabel 7050 5700 2    50   Input ~ 0
 ENC1-IN
@@ -1490,7 +1483,7 @@ LEFT
 Text GLabel 2250 5800 0    50   Input ~ 0
 RIGHT
 $Comp
-L wren-left-rescue:Elite-C-keebio U1
+L wren-numpad-rescue:Elite-C-keebio-wren-left-rescue U1
 U 1 1 6071F7CA
 P 2500 2000
 F 0 "U1" H 2500 2815 50  0000 C CNN
@@ -1500,10 +1493,6 @@ F 3 "" H 2450 2100 50  0001 C CNN
 	1    2500 2000
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 2950 3    50   Input ~ 0
-LEFT
-Text GLabel 2600 2950 3    50   Input ~ 0
-RIGHT
 NoConn ~ 2300 2950
 NoConn ~ 2400 2950
 $Comp
@@ -1609,4 +1598,15 @@ F 3 "~" H 3250 7200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4850 5700 5050 5700
+Text GLabel 1800 1750 0    50   Input ~ 0
+GND
+Text GLabel 1800 1650 0    50   Input ~ 0
+GND
+Text GLabel 2700 2950 3    50   Input ~ 0
+COL9
+NoConn ~ 2600 2950
+Text GLabel 1800 2350 0    50   Input ~ 0
+LEFT
+Text GLabel 1800 2450 0    50   Input ~ 0
+RIGHT
 $EndSCHEMATC

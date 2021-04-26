@@ -1261,10 +1261,6 @@ Text GLabel 3950 4350 2    50   BiDi ~ 0
 SCL
 Text GLabel 3950 4250 2    50   BiDi ~ 0
 SDA
-Text GLabel 1600 1650 2    50   Output ~ 0
-GND
-Text GLabel 1600 1750 2    50   Output ~ 0
-GND
 NoConn ~ 3200 1450
 NoConn ~ 2500 2950
 $Comp
@@ -1420,11 +1416,75 @@ $EndComp
 Wire Wire Line
 	4850 5700 5050 5700
 Wire Wire Line
-	9250 3400 9250 4800
+	9250 3400 9250 4100
 Wire Wire Line
-	8250 3400 8250 4800
+	8250 3400 8250 4100
 Wire Wire Line
-	7350 4500 8350 4500
+	7350 4500 7850 4500
 NoConn ~ 2600 2950
 NoConn ~ 2700 2950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX27
+U 1 1 6089828C
+P 8100 4150
+F 0 "MX27" H 8133 4373 60  0000 C CNN
+F 1 "MX-NoLED" H 8133 4299 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 7475 4125 60  0001 C CNN
+F 3 "" H 7475 4125 60  0001 C CNN
+	1    8100 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 4100
+Wire Wire Line
+	8250 4100 8250 4800
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX29
+U 1 1 60898948
+P 9100 4150
+F 0 "MX29" H 9133 4373 60  0000 C CNN
+F 1 "MX-NoLED" H 9133 4299 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 8475 4125 60  0001 C CNN
+F 3 "" H 8475 4125 60  0001 C CNN
+	1    9100 4150
+	1    0    0    -1  
+$EndComp
+Connection ~ 9250 4100
+Wire Wire Line
+	9250 4100 9250 4800
+$Comp
+L Device:D_Small D27
+U 1 1 608993BF
+P 7850 4400
+F 0 "D27" V 7896 4330 50  0000 R CNN
+F 1 "D_Small" V 7805 4330 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 7850 4400 50  0001 C CNN
+F 3 "~" V 7850 4400 50  0001 C CNN
+	1    7850 4400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7850 4500
+Wire Wire Line
+	7850 4500 8350 4500
+$Comp
+L Device:D_Small D29
+U 1 1 608998FA
+P 8850 4400
+F 0 "D29" V 8896 4330 50  0000 R CNN
+F 1 "D_Small" V 8805 4330 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 8850 4400 50  0001 C CNN
+F 3 "~" V 8850 4400 50  0001 C CNN
+	1    8850 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7850 4300 8050 4300
+Wire Wire Line
+	8850 4300 9050 4300
+Wire Wire Line
+	8850 4500 8350 4500
+Connection ~ 8350 4500
+Text GLabel 1800 1650 0    50   Input ~ 0
+GND
+Text GLabel 1800 1750 0    50   Input ~ 0
+GND
 $EndSCHEMATC
