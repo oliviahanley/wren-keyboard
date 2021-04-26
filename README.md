@@ -54,7 +54,8 @@ To assemble a numpad half, you'll need these parts:
 - 7 8mm M2 threaded separators
 - 14 4mm M2 screws
 - 44 MX-style keyswitches
-- 44 MX keycaps
+- 43 1u MX keycaps
+- 1 2u MX keycaps
 - 45 1N4148 diodes
 - 1 Alps EC-11 compatible rotary encoder
 - 1 Rotary encoder knob (0.5" diameter or less)
@@ -72,7 +73,8 @@ To assemble a nav cluster half, you'll need these parts:
 - 7 8mm M2 threaded separators
 - 14 4mm M2 screws
 - 38 MX-style keyswitches
-- 38 MX keycaps
+- 37 1u MX keycaps
+- 1 2u MX keycaps
 - 39 1N4148 diodes
 - 1 Alps EC-11 compatible rotary encoder
 - 1 Rotary encoder knob (0.5" diameter or less)
@@ -90,7 +92,8 @@ To assemble a nav cluster half, you'll need these parts:
 - 7 8mm M2 threaded separators
 - 14 4mm M2 screws
 - 28 MX-style keyswitches
-- 28 MX keycaps
+- 27 1u MX keycaps
+- 1 2u MX keycap
 - 29 1N4148 diodes
 - 1 Alps EC-11 compatible rotary encoder
 - 1 Rotary encoder knob (0.5" diameter or less)
