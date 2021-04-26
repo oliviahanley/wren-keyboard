@@ -1300,7 +1300,7 @@ LEFT
 Text GLabel 2250 5800 0    50   Input ~ 0
 RIGHT
 $Comp
-L wren-left-rescue:Elite-C-keebio U1
+L wren-nav-rescue:Elite-C-keebio-wren-left-rescue U1
 U 1 1 6071F7CA
 P 2500 2000
 F 0 "U1" H 2500 2815 50  0000 C CNN
