@@ -10,7 +10,7 @@ My primary keyboard for the last few years has been Prime Keyboards' prime_o, be
 My original design, reflected in the [author layout](/images/author-layout.png), simply incorporated a southpaw numpad. After some feedback on my original deign from members of the r/ergomechkeyboards community, though, I decided to reinvent it as a "system keyboard" modeled after the old system cameras. The repository includes three boards, each reversible:
 - A Lilly58/Kyria-inspired split board, with no extra keys;
 - An extended layout with a 4x4 numpad; and
-- A extended layout with a traditional nav cluster.
+- An extended layout with a traditional nav cluster.
 
 Each of these boards can be combined with the others in a split setup, so users can take their pick of a right or left nav cluster/numpad, or combine both in the same board. You could even just use two of the basic boards together for a more traditional layout, though I'm sure there are more elegant designs out there for that.
 
