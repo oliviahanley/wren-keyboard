@@ -19,7 +19,7 @@ U 1 1 60725A82
 P 2650 4350
 F 0 "J1" H 2607 4675 50  0000 C CNN
 F 1 "TRRS_Jack" H 2607 4584 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal" H 2650 4350 50  0001 C CNN
+F 2 "footprints:TRRS_JACK_MJ4PP9" H 2650 4350 50  0001 C CNN
 F 3 "~" H 2650 4350 50  0001 C CNN
 	1    2650 4350
 	1    0    0    -1  
@@ -1648,7 +1648,7 @@ U 1 1 6087D3A8
 P 3950 6750
 F 0 "FID4" H 4035 6796 50  0000 L CNN
 F 1 "Break Hole" H 4035 6705 50  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 3950 6750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 3950 6750 50  0001 C CNN
 F 3 "~" H 3950 6750 50  0001 C CNN
 	1    3950 6750
 	1    0    0    -1  
@@ -1659,7 +1659,7 @@ U 1 1 6087DA45
 P 3950 6950
 F 0 "FID5" H 4035 6996 50  0000 L CNN
 F 1 "Break Hole" H 4035 6905 50  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 3950 6950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 3950 6950 50  0001 C CNN
 F 3 "~" H 3950 6950 50  0001 C CNN
 	1    3950 6950
 	1    0    0    -1  
@@ -1670,7 +1670,7 @@ U 1 1 6087DDEC
 P 3950 7150
 F 0 "FID6" H 4035 7196 50  0000 L CNN
 F 1 "Break Hole" H 4035 7105 50  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 3950 7150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 3950 7150 50  0001 C CNN
 F 3 "~" H 3950 7150 50  0001 C CNN
 	1    3950 7150
 	1    0    0    -1  
@@ -1681,7 +1681,7 @@ U 1 1 6087E992
 P 4600 6750
 F 0 "FID7" H 4685 6796 50  0000 L CNN
 F 1 "Break Hole" H 4685 6705 50  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 4600 6750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 4600 6750 50  0001 C CNN
 F 3 "~" H 4600 6750 50  0001 C CNN
 	1    4600 6750
 	1    0    0    -1  
@@ -1692,7 +1692,7 @@ U 1 1 608B2C9D
 P 4600 6950
 F 0 "FID8" H 4685 6996 50  0000 L CNN
 F 1 "Break Hole" H 4685 6905 50  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 4600 6950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 4600 6950 50  0001 C CNN
 F 3 "~" H 4600 6950 50  0001 C CNN
 	1    4600 6950
 	1    0    0    -1  
@@ -1703,7 +1703,7 @@ U 1 1 608B2FEB
 P 4600 7150
 F 0 "FID9" H 4685 7196 50  0000 L CNN
 F 1 "Break Hole" H 4685 7105 50  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 4600 7150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 4600 7150 50  0001 C CNN
 F 3 "~" H 4600 7150 50  0001 C CNN
 	1    4600 7150
 	1    0    0    -1  
@@ -1714,7 +1714,7 @@ U 1 1 608C0811
 P 5250 6750
 F 0 "FID10" H 5335 6796 50  0000 L CNN
 F 1 "Break Hole" H 5335 6705 50  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 5250 6750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 5250 6750 50  0001 C CNN
 F 3 "~" H 5250 6750 50  0001 C CNN
 	1    5250 6750
 	1    0    0    -1  
@@ -1725,7 +1725,7 @@ U 1 1 608C0EC7
 P 5250 6950
 F 0 "FID11" H 5335 6996 50  0000 L CNN
 F 1 "Break Hole" H 5335 6905 50  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 5250 6950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 5250 6950 50  0001 C CNN
 F 3 "~" H 5250 6950 50  0001 C CNN
 	1    5250 6950
 	1    0    0    -1  
@@ -1736,7 +1736,7 @@ U 1 1 608C1220
 P 5250 7150
 F 0 "FID12" H 5335 7196 50  0000 L CNN
 F 1 "Break Hole" H 5335 7105 50  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 5250 7150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 5250 7150 50  0001 C CNN
 F 3 "~" H 5250 7150 50  0001 C CNN
 	1    5250 7150
 	1    0    0    -1  
@@ -1747,7 +1747,7 @@ U 1 1 608C19C4
 P 5900 6750
 F 0 "FID13" H 5985 6796 50  0000 L CNN
 F 1 "Break Hole" H 5985 6705 50  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 5900 6750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 5900 6750 50  0001 C CNN
 F 3 "~" H 5900 6750 50  0001 C CNN
 	1    5900 6750
 	1    0    0    -1  
@@ -1758,7 +1758,7 @@ U 1 1 608C1D25
 P 5900 6950
 F 0 "FID14" H 5985 6996 50  0000 L CNN
 F 1 "Break Hole" H 5985 6905 50  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 5900 6950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 5900 6950 50  0001 C CNN
 F 3 "~" H 5900 6950 50  0001 C CNN
 	1    5900 6950
 	1    0    0    -1  
@@ -1769,7 +1769,7 @@ U 1 1 608C1F03
 P 5900 7150
 F 0 "FID15" H 5985 7196 50  0000 L CNN
 F 1 "Break Hole" H 5985 7105 50  0000 L CNN
-F 2 "random-keyboard-parts:breakaway-mousebites" H 5900 7150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 5900 7150 50  0001 C CNN
 F 3 "~" H 5900 7150 50  0001 C CNN
 	1    5900 7150
 	1    0    0    -1  

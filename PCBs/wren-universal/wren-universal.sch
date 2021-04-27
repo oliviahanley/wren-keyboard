@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:AudioJack4 J1
+L Connector:AudioJack4_Ground J1
 U 1 1 60725A82
 P 2650 4350
 F 0 "J1" H 2607 4675 50  0000 C CNN
 F 1 "TRRS_Jack" H 2607 4584 50  0000 C CNN
-F 2 "Connector_Audio:Jack_3.5mm_PJ320E_Horizontal" H 2650 4350 50  0001 C CNN
+F 2 "footprints:TRRS_JACK_MJ4PP9" H 2650 4350 50  0001 C CNN
 F 3 "~" H 2650 4350 50  0001 C CNN
 	1    2650 4350
 	1    0    0    -1  
@@ -1774,4 +1774,6 @@ F 3 "~" H 5900 7150 50  0001 C CNN
 	1    5900 7150
 	1    0    0    -1  
 $EndComp
+Text GLabel 2650 4750 3    50   Input ~ 0
+GND
 $EndSCHEMATC
