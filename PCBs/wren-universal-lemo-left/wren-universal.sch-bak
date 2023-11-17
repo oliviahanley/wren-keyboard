@@ -1,0 +1,1828 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:AudioJack4_Ground J1
+U 1 1 60725A82
+P 9200 5350
+F 0 "J1" H 9157 5675 50  0000 C CNN
+F 1 "TRRS_Jack" H 9157 5584 50  0000 C CNN
+F 2 "footprints:TRRS_JACK_MJ4PP9" H 9200 5350 50  0001 C CNN
+F 3 "~" H 9200 5350 50  0001 C CNN
+	1    9200 5350
+	1    0    0    -1  
+$EndComp
+Text GLabel 10500 5550 2    50   Input ~ 0
+VCC
+Text GLabel 9400 5550 2    50   Output ~ 0
+GND
+$Comp
+L Device:R_Small R1
+U 1 1 60729D01
+P 9550 5350
+F 0 "R1" H 9609 5396 50  0000 L CNN
+F 1 "2.2kOhms" H 9609 5305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" H 9550 5350 50  0001 C CNN
+F 3 "~" H 9550 5350 50  0001 C CNN
+	1    9550 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 5450 9550 5450
+Wire Wire Line
+	9800 5450 9800 5550
+Connection ~ 9550 5450
+Wire Wire Line
+	9550 5450 9800 5450
+Wire Wire Line
+	9400 5250 9550 5250
+Connection ~ 9550 5250
+Connection ~ 10050 5350
+Connection ~ 10050 5550
+Wire Wire Line
+	9800 5550 10050 5550
+Wire Wire Line
+	9400 5350 10050 5350
+Wire Wire Line
+	10050 5550 10500 5550
+Wire Wire Line
+	9550 5250 10500 5250
+Wire Wire Line
+	10050 5350 10500 5350
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 6073AA94
+P 6350 1350
+F 0 "MX1" H 6383 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 6383 1499 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 5725 1325 60  0001 C CNN
+F 3 "" H 5725 1325 60  0001 C CNN
+	1    6350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 6073CD53
+P 6100 1600
+F 0 "D1" V 6146 1530 50  0000 R CNN
+F 1 "D_Small" V 6055 1530 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 6100 1600 50  0001 C CNN
+F 3 "~" V 6100 1600 50  0001 C CNN
+	1    6100 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 60742810
+P 6850 1350
+F 0 "MX2" H 6883 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 6883 1499 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 6225 1325 60  0001 C CNN
+F 3 "" H 6225 1325 60  0001 C CNN
+	1    6850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 6074CE3A
+P 7100 1600
+F 0 "D3" V 7146 1530 50  0000 R CNN
+F 1 "D_Small" V 7055 1530 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 7100 1600 50  0001 C CNN
+F 3 "~" V 7100 1600 50  0001 C CNN
+	1    7100 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 6074D1A4
+P 7350 1350
+F 0 "MX3" H 7383 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 7383 1499 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 6725 1325 60  0001 C CNN
+F 3 "" H 6725 1325 60  0001 C CNN
+	1    7350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 6074DA2A
+P 6600 1600
+F 0 "D2" V 6646 1530 50  0000 R CNN
+F 1 "D_Small" V 6555 1530 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 6600 1600 50  0001 C CNN
+F 3 "~" V 6600 1600 50  0001 C CNN
+	1    6600 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 60750994
+P 7600 1600
+F 0 "D4" V 7646 1530 50  0000 R CNN
+F 1 "D_Small" V 7555 1530 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 7600 1600 50  0001 C CNN
+F 3 "~" V 7600 1600 50  0001 C CNN
+	1    7600 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 60750F5E
+P 8100 1600
+F 0 "D5" V 8146 1530 50  0000 R CNN
+F 1 "D_Small" V 8055 1530 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 8100 1600 50  0001 C CNN
+F 3 "~" V 8100 1600 50  0001 C CNN
+	1    8100 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 60751979
+P 8600 1600
+F 0 "D6" V 8646 1530 50  0000 R CNN
+F 1 "D_Small" V 8555 1530 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 8600 1600 50  0001 C CNN
+F 3 "~" V 8600 1600 50  0001 C CNN
+	1    8600 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 60751E85
+P 9100 1600
+F 0 "D7" V 9146 1530 50  0000 R CNN
+F 1 "D_Small" V 9055 1530 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 9100 1600 50  0001 C CNN
+F 3 "~" V 9100 1600 50  0001 C CNN
+	1    9100 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 607523CD
+P 7850 1350
+F 0 "MX4" H 7883 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 7883 1499 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 7225 1325 60  0001 C CNN
+F 3 "" H 7225 1325 60  0001 C CNN
+	1    7850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 60752956
+P 8350 1350
+F 0 "MX5" H 8383 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 8383 1499 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 7725 1325 60  0001 C CNN
+F 3 "" H 7725 1325 60  0001 C CNN
+	1    8350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX6
+U 1 1 60752EBC
+P 8850 1350
+F 0 "MX6" H 8883 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 8883 1499 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 8225 1325 60  0001 C CNN
+F 3 "" H 8225 1325 60  0001 C CNN
+	1    8850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX7
+U 1 1 60753A67
+P 9350 1350
+F 0 "MX7" H 9383 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 9383 1499 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 8725 1325 60  0001 C CNN
+F 3 "" H 8725 1325 60  0001 C CNN
+	1    9350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 607543C1
+P 9600 1600
+F 0 "D8" V 9646 1530 50  0000 R CNN
+F 1 "D_Small" V 9555 1530 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 9600 1600 50  0001 C CNN
+F 3 "~" V 9600 1600 50  0001 C CNN
+	1    9600 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 607549B3
+P 10100 1600
+F 0 "D9" V 10146 1530 50  0000 R CNN
+F 1 "D_Small" V 10055 1530 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 10100 1600 50  0001 C CNN
+F 3 "~" V 10100 1600 50  0001 C CNN
+	1    10100 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX8
+U 1 1 60754CAD
+P 9850 1350
+F 0 "MX8" H 9883 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 9883 1499 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 9225 1325 60  0001 C CNN
+F 3 "" H 9225 1325 60  0001 C CNN
+	1    9850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX9
+U 1 1 6075540C
+P 10350 1350
+F 0 "MX9" H 10383 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 10383 1499 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 9725 1325 60  0001 C CNN
+F 3 "" H 9725 1325 60  0001 C CNN
+	1    10350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX10
+U 1 1 60755D23
+P 10850 1350
+F 0 "MX10" H 10883 1573 60  0000 C CNN
+F 1 "MX-NoLED" H 10883 1499 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 10225 1325 60  0001 C CNN
+F 3 "" H 10225 1325 60  0001 C CNN
+	1    10850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 60756404
+P 10600 1600
+F 0 "D10" V 10646 1530 50  0000 R CNN
+F 1 "D_Small" V 10555 1530 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 10600 1600 50  0001 C CNN
+F 3 "~" V 10600 1600 50  0001 C CNN
+	1    10600 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX11
+U 1 1 60757491
+P 6350 2050
+F 0 "MX11" H 6383 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 6383 2199 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 5725 2025 60  0001 C CNN
+F 3 "" H 5725 2025 60  0001 C CNN
+	1    6350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX12
+U 1 1 607582D5
+P 6850 2050
+F 0 "MX12" H 6883 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 6883 2199 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 6225 2025 60  0001 C CNN
+F 3 "" H 6225 2025 60  0001 C CNN
+	1    6850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX13
+U 1 1 60758BB5
+P 7350 2050
+F 0 "MX13" H 7383 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 7383 2199 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 6725 2025 60  0001 C CNN
+F 3 "" H 6725 2025 60  0001 C CNN
+	1    7350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX14
+U 1 1 607593FA
+P 7850 2050
+F 0 "MX14" H 7883 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 7883 2199 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 7225 2025 60  0001 C CNN
+F 3 "" H 7225 2025 60  0001 C CNN
+	1    7850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX15
+U 1 1 60759B22
+P 8350 2050
+F 0 "MX15" H 8383 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 8383 2199 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 7725 2025 60  0001 C CNN
+F 3 "" H 7725 2025 60  0001 C CNN
+	1    8350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX16
+U 1 1 60759F5C
+P 8850 2050
+F 0 "MX16" H 8883 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 8883 2199 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 8225 2025 60  0001 C CNN
+F 3 "" H 8225 2025 60  0001 C CNN
+	1    8850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX17
+U 1 1 6075A86E
+P 9350 2050
+F 0 "MX17" H 9383 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 9383 2199 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 8725 2025 60  0001 C CNN
+F 3 "" H 8725 2025 60  0001 C CNN
+	1    9350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX18
+U 1 1 6075AD57
+P 9850 2050
+F 0 "MX18" H 9883 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 9883 2199 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 9225 2025 60  0001 C CNN
+F 3 "" H 9225 2025 60  0001 C CNN
+	1    9850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX19
+U 1 1 6075B74F
+P 10350 2050
+F 0 "MX19" H 10383 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 10383 2199 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 9725 2025 60  0001 C CNN
+F 3 "" H 9725 2025 60  0001 C CNN
+	1    10350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX20
+U 1 1 6075BA62
+P 10850 2050
+F 0 "MX20" H 10883 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 10883 2199 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 10225 2025 60  0001 C CNN
+F 3 "" H 10225 2025 60  0001 C CNN
+	1    10850 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 6075C11C
+P 6100 2300
+F 0 "D11" V 6146 2230 50  0000 R CNN
+F 1 "D_Small" V 6055 2230 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 6100 2300 50  0001 C CNN
+F 3 "~" V 6100 2300 50  0001 C CNN
+	1    6100 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 6075C920
+P 6600 2300
+F 0 "D12" V 6646 2230 50  0000 R CNN
+F 1 "D_Small" V 6555 2230 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 6600 2300 50  0001 C CNN
+F 3 "~" V 6600 2300 50  0001 C CNN
+	1    6600 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 6075D1B5
+P 7100 2300
+F 0 "D13" V 7146 2230 50  0000 R CNN
+F 1 "D_Small" V 7055 2230 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 7100 2300 50  0001 C CNN
+F 3 "~" V 7100 2300 50  0001 C CNN
+	1    7100 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 6075D7E3
+P 7600 2300
+F 0 "D14" V 7646 2230 50  0000 R CNN
+F 1 "D_Small" V 7555 2230 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 7600 2300 50  0001 C CNN
+F 3 "~" V 7600 2300 50  0001 C CNN
+	1    7600 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 6075DFDD
+P 8100 2300
+F 0 "D15" V 8146 2230 50  0000 R CNN
+F 1 "D_Small" V 8055 2230 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 8100 2300 50  0001 C CNN
+F 3 "~" V 8100 2300 50  0001 C CNN
+	1    8100 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 6075E49E
+P 8600 2300
+F 0 "D16" V 8646 2230 50  0000 R CNN
+F 1 "D_Small" V 8555 2230 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 8600 2300 50  0001 C CNN
+F 3 "~" V 8600 2300 50  0001 C CNN
+	1    8600 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 6075EB7B
+P 9100 2300
+F 0 "D17" V 9146 2230 50  0000 R CNN
+F 1 "D_Small" V 9055 2230 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 9100 2300 50  0001 C CNN
+F 3 "~" V 9100 2300 50  0001 C CNN
+	1    9100 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 6075F5B4
+P 9600 2300
+F 0 "D18" V 9646 2230 50  0000 R CNN
+F 1 "D_Small" V 9555 2230 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 9600 2300 50  0001 C CNN
+F 3 "~" V 9600 2300 50  0001 C CNN
+	1    9600 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D19
+U 1 1 6075FCBE
+P 10100 2300
+F 0 "D19" V 10146 2230 50  0000 R CNN
+F 1 "D_Small" V 10055 2230 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 10100 2300 50  0001 C CNN
+F 3 "~" V 10100 2300 50  0001 C CNN
+	1    10100 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 6076015C
+P 10600 2300
+F 0 "D20" V 10646 2230 50  0000 R CNN
+F 1 "D_Small" V 10555 2230 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 10600 2300 50  0001 C CNN
+F 3 "~" V 10600 2300 50  0001 C CNN
+	1    10600 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX21
+U 1 1 607606EA
+P 6350 2750
+F 0 "MX21" H 6383 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 6383 2899 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 5725 2725 60  0001 C CNN
+F 3 "" H 5725 2725 60  0001 C CNN
+	1    6350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX22
+U 1 1 60761222
+P 6850 2750
+F 0 "MX22" H 6883 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 6883 2899 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 6225 2725 60  0001 C CNN
+F 3 "" H 6225 2725 60  0001 C CNN
+	1    6850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX23
+U 1 1 60761A58
+P 7350 2750
+F 0 "MX23" H 7383 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 7383 2899 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 6725 2725 60  0001 C CNN
+F 3 "" H 6725 2725 60  0001 C CNN
+	1    7350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX24
+U 1 1 60762009
+P 7850 2750
+F 0 "MX24" H 7883 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 7883 2899 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 7225 2725 60  0001 C CNN
+F 3 "" H 7225 2725 60  0001 C CNN
+	1    7850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX25
+U 1 1 6076275E
+P 8350 2750
+F 0 "MX25" H 8383 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 8383 2899 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 7725 2725 60  0001 C CNN
+F 3 "" H 7725 2725 60  0001 C CNN
+	1    8350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX26
+U 1 1 607630FC
+P 8850 2750
+F 0 "MX26" H 8883 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 8883 2899 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 8225 2725 60  0001 C CNN
+F 3 "" H 8225 2725 60  0001 C CNN
+	1    8850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX27
+U 1 1 60763A63
+P 9350 2750
+F 0 "MX27" H 9383 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 9383 2899 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 8725 2725 60  0001 C CNN
+F 3 "" H 8725 2725 60  0001 C CNN
+	1    9350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX28
+U 1 1 60763F5B
+P 9850 2750
+F 0 "MX28" H 9883 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 9883 2899 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 9225 2725 60  0001 C CNN
+F 3 "" H 9225 2725 60  0001 C CNN
+	1    9850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX29
+U 1 1 60764584
+P 10350 2750
+F 0 "MX29" H 10383 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 10383 2899 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 9725 2725 60  0001 C CNN
+F 3 "" H 9725 2725 60  0001 C CNN
+	1    10350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX30
+U 1 1 60764DA1
+P 10850 2750
+F 0 "MX30" H 10883 2973 60  0000 C CNN
+F 1 "MX-NoLED" H 10883 2899 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 10225 2725 60  0001 C CNN
+F 3 "" H 10225 2725 60  0001 C CNN
+	1    10850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 60765285
+P 6100 3000
+F 0 "D21" V 6146 2930 50  0000 R CNN
+F 1 "D_Small" V 6055 2930 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 6100 3000 50  0001 C CNN
+F 3 "~" V 6100 3000 50  0001 C CNN
+	1    6100 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 60765ACF
+P 6600 3000
+F 0 "D22" V 6646 2930 50  0000 R CNN
+F 1 "D_Small" V 6555 2930 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 6600 3000 50  0001 C CNN
+F 3 "~" V 6600 3000 50  0001 C CNN
+	1    6600 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 60766049
+P 7100 3000
+F 0 "D23" V 7146 2930 50  0000 R CNN
+F 1 "D_Small" V 7055 2930 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 7100 3000 50  0001 C CNN
+F 3 "~" V 7100 3000 50  0001 C CNN
+	1    7100 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 607665FF
+P 7600 3000
+F 0 "D24" V 7646 2930 50  0000 R CNN
+F 1 "D_Small" V 7555 2930 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 7600 3000 50  0001 C CNN
+F 3 "~" V 7600 3000 50  0001 C CNN
+	1    7600 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D25
+U 1 1 60766DA9
+P 8100 3000
+F 0 "D25" V 8146 2930 50  0000 R CNN
+F 1 "D_Small" V 8055 2930 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 8100 3000 50  0001 C CNN
+F 3 "~" V 8100 3000 50  0001 C CNN
+	1    8100 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D26
+U 1 1 607673E1
+P 8600 3000
+F 0 "D26" V 8646 2930 50  0000 R CNN
+F 1 "D_Small" V 8555 2930 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 8600 3000 50  0001 C CNN
+F 3 "~" V 8600 3000 50  0001 C CNN
+	1    8600 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D27
+U 1 1 607678CF
+P 9100 3000
+F 0 "D27" V 9146 2930 50  0000 R CNN
+F 1 "D_Small" V 9055 2930 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 9100 3000 50  0001 C CNN
+F 3 "~" V 9100 3000 50  0001 C CNN
+	1    9100 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D28
+U 1 1 60767F2A
+P 9600 3000
+F 0 "D28" V 9646 2930 50  0000 R CNN
+F 1 "D_Small" V 9555 2930 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 9600 3000 50  0001 C CNN
+F 3 "~" V 9600 3000 50  0001 C CNN
+	1    9600 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D29
+U 1 1 607683EB
+P 10100 3000
+F 0 "D29" V 10146 2930 50  0000 R CNN
+F 1 "D_Small" V 10055 2930 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 10100 3000 50  0001 C CNN
+F 3 "~" V 10100 3000 50  0001 C CNN
+	1    10100 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D30
+U 1 1 607688AC
+P 10600 3000
+F 0 "D30" V 10646 2930 50  0000 R CNN
+F 1 "D_Small" V 10555 2930 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 10600 3000 50  0001 C CNN
+F 3 "~" V 10600 3000 50  0001 C CNN
+	1    10600 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX31
+U 1 1 60720CBF
+P 6350 3450
+F 0 "MX31" H 6383 3673 60  0000 C CNN
+F 1 "MX-NoLED" H 6383 3599 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 5725 3425 60  0001 C CNN
+F 3 "" H 5725 3425 60  0001 C CNN
+	1    6350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX32
+U 1 1 607218EC
+P 6850 3450
+F 0 "MX32" H 6883 3673 60  0000 C CNN
+F 1 "MX-NoLED" H 6883 3599 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 6225 3425 60  0001 C CNN
+F 3 "" H 6225 3425 60  0001 C CNN
+	1    6850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX33
+U 1 1 607220D2
+P 7350 3450
+F 0 "MX33" H 7383 3673 60  0000 C CNN
+F 1 "MX-NoLED" H 7383 3599 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 6725 3425 60  0001 C CNN
+F 3 "" H 6725 3425 60  0001 C CNN
+	1    7350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX34
+U 1 1 60722561
+P 7850 3450
+F 0 "MX34" H 7883 3673 60  0000 C CNN
+F 1 "MX-NoLED" H 7883 3599 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 7225 3425 60  0001 C CNN
+F 3 "" H 7225 3425 60  0001 C CNN
+	1    7850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX35
+U 1 1 607229FF
+P 8350 3450
+F 0 "MX35" H 8383 3673 60  0000 C CNN
+F 1 "MX-NoLED" H 8383 3599 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 7725 3425 60  0001 C CNN
+F 3 "" H 7725 3425 60  0001 C CNN
+	1    8350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX36
+U 1 1 607231E0
+P 8850 3450
+F 0 "MX36" H 8883 3673 60  0000 C CNN
+F 1 "MX-NoLED" H 8883 3599 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 8225 3425 60  0001 C CNN
+F 3 "" H 8225 3425 60  0001 C CNN
+	1    8850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX37
+U 1 1 60723A4D
+P 9350 3450
+F 0 "MX37" H 9383 3673 60  0000 C CNN
+F 1 "MX-NoLED" H 9383 3599 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 8725 3425 60  0001 C CNN
+F 3 "" H 8725 3425 60  0001 C CNN
+	1    9350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX38
+U 1 1 60724260
+P 9850 3450
+F 0 "MX38" H 9883 3673 60  0000 C CNN
+F 1 "MX-NoLED" H 9883 3599 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 9225 3425 60  0001 C CNN
+F 3 "" H 9225 3425 60  0001 C CNN
+	1    9850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX39
+U 1 1 607249F6
+P 10350 3450
+F 0 "MX39" H 10383 3673 60  0000 C CNN
+F 1 "MX-NoLED" H 10383 3599 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 9725 3425 60  0001 C CNN
+F 3 "" H 9725 3425 60  0001 C CNN
+	1    10350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX40
+U 1 1 607253A3
+P 10850 3450
+F 0 "MX40" H 10883 3673 60  0000 C CNN
+F 1 "MX-NoLED" H 10883 3599 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 10225 3425 60  0001 C CNN
+F 3 "" H 10225 3425 60  0001 C CNN
+	1    10850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D31
+U 1 1 60726C83
+P 6100 3700
+F 0 "D31" V 6146 3630 50  0000 R CNN
+F 1 "D_Small" V 6055 3630 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 6100 3700 50  0001 C CNN
+F 3 "~" V 6100 3700 50  0001 C CNN
+	1    6100 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 607273FB
+P 6600 3700
+F 0 "D32" V 6646 3630 50  0000 R CNN
+F 1 "D_Small" V 6555 3630 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 6600 3700 50  0001 C CNN
+F 3 "~" V 6600 3700 50  0001 C CNN
+	1    6600 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D33
+U 1 1 60727D2B
+P 7100 3700
+F 0 "D33" V 7146 3630 50  0000 R CNN
+F 1 "D_Small" V 7055 3630 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 7100 3700 50  0001 C CNN
+F 3 "~" V 7100 3700 50  0001 C CNN
+	1    7100 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 6072816F
+P 7600 3700
+F 0 "D34" V 7646 3630 50  0000 R CNN
+F 1 "D_Small" V 7555 3630 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 7600 3700 50  0001 C CNN
+F 3 "~" V 7600 3700 50  0001 C CNN
+	1    7600 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D35
+U 1 1 60728810
+P 8100 3700
+F 0 "D35" V 8146 3630 50  0000 R CNN
+F 1 "D_Small" V 8055 3630 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 8100 3700 50  0001 C CNN
+F 3 "~" V 8100 3700 50  0001 C CNN
+	1    8100 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D36
+U 1 1 60728CE5
+P 8600 3700
+F 0 "D36" V 8646 3630 50  0000 R CNN
+F 1 "D_Small" V 8555 3630 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 8600 3700 50  0001 C CNN
+F 3 "~" V 8600 3700 50  0001 C CNN
+	1    8600 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D37
+U 1 1 607292FA
+P 9150 3700
+F 0 "D37" V 9196 3630 50  0000 R CNN
+F 1 "D_Small" V 9105 3630 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 9150 3700 50  0001 C CNN
+F 3 "~" V 9150 3700 50  0001 C CNN
+	1    9150 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D38
+U 1 1 607298D8
+P 9600 3700
+F 0 "D38" V 9646 3630 50  0000 R CNN
+F 1 "D_Small" V 9555 3630 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 9600 3700 50  0001 C CNN
+F 3 "~" V 9600 3700 50  0001 C CNN
+	1    9600 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D39
+U 1 1 60729E6B
+P 10100 3700
+F 0 "D39" V 10146 3630 50  0000 R CNN
+F 1 "D_Small" V 10055 3630 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 10100 3700 50  0001 C CNN
+F 3 "~" V 10100 3700 50  0001 C CNN
+	1    10100 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D40
+U 1 1 6072A4C6
+P 10600 3700
+F 0 "D40" V 10646 3630 50  0000 R CNN
+F 1 "D_Small" V 10555 3630 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 10600 3700 50  0001 C CNN
+F 3 "~" V 10600 3700 50  0001 C CNN
+	1    10600 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX42
+U 1 1 6072B58C
+P 6850 4150
+F 0 "MX42" H 6883 4373 60  0000 C CNN
+F 1 "MX-NoLED" H 6883 4299 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 6225 4125 60  0001 C CNN
+F 3 "" H 6225 4125 60  0001 C CNN
+	1    6850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX43
+U 1 1 6072BC7D
+P 7350 4150
+F 0 "MX43" H 7383 4373 60  0000 C CNN
+F 1 "MX-NoLED" H 7383 4299 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 6725 4125 60  0001 C CNN
+F 3 "" H 6725 4125 60  0001 C CNN
+	1    7350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX44
+U 1 1 6072C094
+P 7850 4150
+F 0 "MX44" H 7883 4373 60  0000 C CNN
+F 1 "MX-NoLED" H 7883 4299 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 7225 4125 60  0001 C CNN
+F 3 "" H 7225 4125 60  0001 C CNN
+	1    7850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D42
+U 1 1 6072C43B
+P 6600 4400
+F 0 "D42" V 6646 4330 50  0000 R CNN
+F 1 "D_Small" V 6555 4330 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 6600 4400 50  0001 C CNN
+F 3 "~" V 6600 4400 50  0001 C CNN
+	1    6600 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D43
+U 1 1 6072C9CE
+P 7100 4400
+F 0 "D43" V 7146 4330 50  0000 R CNN
+F 1 "D_Small" V 7055 4330 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 7100 4400 50  0001 C CNN
+F 3 "~" V 7100 4400 50  0001 C CNN
+	1    7100 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D44
+U 1 1 6072D1E1
+P 7600 4400
+F 0 "D44" V 7646 4330 50  0000 R CNN
+F 1 "D_Small" V 7555 4330 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 7600 4400 50  0001 C CNN
+F 3 "~" V 7600 4400 50  0001 C CNN
+	1    7600 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D45
+U 1 1 6072D6ED
+P 8100 4400
+F 0 "D45" V 8146 4330 50  0000 R CNN
+F 1 "D_Small" V 8055 4330 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 8100 4400 50  0001 C CNN
+F 3 "~" V 8100 4400 50  0001 C CNN
+	1    8100 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 1500 6300 1500
+Wire Wire Line
+	6600 1500 6800 1500
+Wire Wire Line
+	7100 1500 7300 1500
+Wire Wire Line
+	7600 1500 7800 1500
+Wire Wire Line
+	8100 1500 8300 1500
+Wire Wire Line
+	8600 1500 8800 1500
+Wire Wire Line
+	9100 1500 9300 1500
+Wire Wire Line
+	9600 1500 9800 1500
+Wire Wire Line
+	10100 1500 10300 1500
+Wire Wire Line
+	10600 1500 10800 1500
+Wire Wire Line
+	6100 2200 6300 2200
+Wire Wire Line
+	6600 2200 6800 2200
+Wire Wire Line
+	7100 2200 7300 2200
+Wire Wire Line
+	7600 2200 7800 2200
+Wire Wire Line
+	8100 2200 8300 2200
+Wire Wire Line
+	8600 2200 8800 2200
+Wire Wire Line
+	9100 2200 9300 2200
+Wire Wire Line
+	9600 2200 9800 2200
+Wire Wire Line
+	10100 2200 10300 2200
+Wire Wire Line
+	10600 2200 10800 2200
+Wire Wire Line
+	6100 2900 6300 2900
+Wire Wire Line
+	6600 2900 6800 2900
+Wire Wire Line
+	7100 2900 7300 2900
+Wire Wire Line
+	7600 2900 7800 2900
+Wire Wire Line
+	8100 2900 8300 2900
+Wire Wire Line
+	8600 2900 8800 2900
+Wire Wire Line
+	9100 2900 9300 2900
+Wire Wire Line
+	9600 2900 9800 2900
+Wire Wire Line
+	10100 2900 10300 2900
+Wire Wire Line
+	10600 2900 10800 2900
+Wire Wire Line
+	6100 3600 6300 3600
+Wire Wire Line
+	6600 3600 6800 3600
+Wire Wire Line
+	7100 3600 7300 3600
+Wire Wire Line
+	7600 3600 7800 3600
+Wire Wire Line
+	8100 3600 8300 3600
+Wire Wire Line
+	8600 3600 8800 3600
+Wire Wire Line
+	9150 3600 9300 3600
+Wire Wire Line
+	9600 3600 9800 3600
+Wire Wire Line
+	10100 3600 10300 3600
+Wire Wire Line
+	10600 3600 10800 3600
+Wire Wire Line
+	6600 4300 6800 4300
+Wire Wire Line
+	7100 4300 7300 4300
+Wire Wire Line
+	7600 4300 7800 4300
+Wire Wire Line
+	8100 4300 8300 4300
+Wire Wire Line
+	5900 1700 6100 1700
+Connection ~ 6100 1700
+Wire Wire Line
+	6100 1700 6600 1700
+Connection ~ 6600 1700
+Wire Wire Line
+	6600 1700 7100 1700
+Connection ~ 7100 1700
+Wire Wire Line
+	7100 1700 7600 1700
+Connection ~ 7600 1700
+Wire Wire Line
+	7600 1700 8100 1700
+Connection ~ 8100 1700
+Wire Wire Line
+	8100 1700 8600 1700
+Connection ~ 8600 1700
+Wire Wire Line
+	8600 1700 9100 1700
+Connection ~ 9100 1700
+Wire Wire Line
+	9100 1700 9600 1700
+Connection ~ 9600 1700
+Wire Wire Line
+	9600 1700 10100 1700
+Connection ~ 10100 1700
+Wire Wire Line
+	10100 1700 10600 1700
+Wire Wire Line
+	5900 2400 6100 2400
+Connection ~ 6100 2400
+Wire Wire Line
+	6100 2400 6600 2400
+Connection ~ 6600 2400
+Wire Wire Line
+	6600 2400 7100 2400
+Connection ~ 7100 2400
+Wire Wire Line
+	7100 2400 7600 2400
+Connection ~ 7600 2400
+Wire Wire Line
+	7600 2400 8100 2400
+Connection ~ 8100 2400
+Wire Wire Line
+	8100 2400 8600 2400
+Connection ~ 8600 2400
+Wire Wire Line
+	8600 2400 9100 2400
+Connection ~ 9100 2400
+Wire Wire Line
+	9100 2400 9600 2400
+Connection ~ 9600 2400
+Wire Wire Line
+	9600 2400 10100 2400
+Connection ~ 10100 2400
+Wire Wire Line
+	10100 2400 10600 2400
+Wire Wire Line
+	5900 3100 6100 3100
+Connection ~ 6100 3100
+Wire Wire Line
+	6100 3100 6600 3100
+Connection ~ 6600 3100
+Wire Wire Line
+	6600 3100 7100 3100
+Connection ~ 7100 3100
+Wire Wire Line
+	7100 3100 7600 3100
+Connection ~ 7600 3100
+Wire Wire Line
+	7600 3100 8100 3100
+Connection ~ 8100 3100
+Wire Wire Line
+	8100 3100 8600 3100
+Connection ~ 8600 3100
+Wire Wire Line
+	8600 3100 9100 3100
+Connection ~ 9100 3100
+Wire Wire Line
+	9100 3100 9600 3100
+Connection ~ 9600 3100
+Wire Wire Line
+	9600 3100 10100 3100
+Connection ~ 10100 3100
+Wire Wire Line
+	10100 3100 10600 3100
+Wire Wire Line
+	5900 3800 6100 3800
+Connection ~ 6100 3800
+Wire Wire Line
+	6100 3800 6600 3800
+Connection ~ 6600 3800
+Wire Wire Line
+	6600 3800 7100 3800
+Connection ~ 7100 3800
+Wire Wire Line
+	7100 3800 7600 3800
+Connection ~ 7600 3800
+Wire Wire Line
+	7600 3800 8100 3800
+Connection ~ 8100 3800
+Wire Wire Line
+	8100 3800 8600 3800
+Connection ~ 8600 3800
+Wire Wire Line
+	8600 3800 9150 3800
+Connection ~ 9150 3800
+Wire Wire Line
+	9150 3800 9600 3800
+Connection ~ 9600 3800
+Wire Wire Line
+	9600 3800 10100 3800
+Connection ~ 10100 3800
+Wire Wire Line
+	10100 3800 10600 3800
+Connection ~ 6600 4500
+Wire Wire Line
+	6600 4500 7100 4500
+Connection ~ 7100 4500
+Wire Wire Line
+	7100 4500 7600 4500
+Connection ~ 7600 4500
+Wire Wire Line
+	7600 4500 8100 4500
+Wire Wire Line
+	6500 950  6500 1300
+Connection ~ 6500 1300
+Wire Wire Line
+	6500 1300 6500 2000
+Connection ~ 6500 2000
+Wire Wire Line
+	6500 2000 6500 2700
+Connection ~ 6500 2700
+Wire Wire Line
+	6500 2700 6500 3400
+Wire Wire Line
+	7000 3400 7000 4100
+Wire Wire Line
+	7000 950  7000 1300
+Connection ~ 7000 1300
+Wire Wire Line
+	7000 1300 7000 2000
+Connection ~ 7000 2000
+Wire Wire Line
+	7000 2000 7000 2700
+Connection ~ 7000 2700
+Wire Wire Line
+	7000 2700 7000 3400
+Connection ~ 7000 3400
+Wire Wire Line
+	7500 3400 7500 4100
+Wire Wire Line
+	8000 4100 8000 3400
+Connection ~ 7500 1300
+Wire Wire Line
+	7500 1300 7500 950 
+Connection ~ 7500 2000
+Wire Wire Line
+	7500 2000 7500 1300
+Connection ~ 7500 2700
+Wire Wire Line
+	7500 2700 7500 2000
+Connection ~ 7500 3400
+Wire Wire Line
+	7500 3400 7500 2700
+Wire Wire Line
+	8000 950  8000 1300
+Connection ~ 8000 1300
+Wire Wire Line
+	8000 1300 8000 2000
+Connection ~ 8000 2000
+Wire Wire Line
+	8000 2000 8000 2700
+Connection ~ 8000 2700
+Wire Wire Line
+	8000 2700 8000 3400
+Connection ~ 8000 3400
+Wire Wire Line
+	8500 3400 8500 4100
+Wire Wire Line
+	8500 3400 8500 2700
+Connection ~ 8500 1300
+Wire Wire Line
+	8500 1300 8500 950 
+Connection ~ 8500 2000
+Wire Wire Line
+	8500 2000 8500 1300
+Connection ~ 8500 2700
+Wire Wire Line
+	8500 2700 8500 2000
+Wire Wire Line
+	9000 950  9000 1300
+Connection ~ 9000 1300
+Wire Wire Line
+	9000 1300 9000 2000
+Connection ~ 9000 2000
+Wire Wire Line
+	9000 2000 9000 2700
+Connection ~ 9000 2700
+Wire Wire Line
+	9000 2700 9000 3400
+Wire Wire Line
+	9500 3400 9500 2700
+Connection ~ 9500 1300
+Wire Wire Line
+	9500 1300 9500 950 
+Connection ~ 9500 2000
+Wire Wire Line
+	9500 2000 9500 1300
+Connection ~ 9500 2700
+Wire Wire Line
+	9500 2700 9500 2000
+Wire Wire Line
+	10000 950  10000 1300
+Connection ~ 10000 1300
+Wire Wire Line
+	10000 1300 10000 2000
+Connection ~ 10000 2000
+Wire Wire Line
+	10000 2000 10000 2700
+Connection ~ 10000 2700
+Wire Wire Line
+	10000 2700 10000 3400
+Wire Wire Line
+	10500 950  10500 1300
+Connection ~ 10500 1300
+Wire Wire Line
+	10500 1300 10500 2000
+Connection ~ 10500 2000
+Wire Wire Line
+	10500 2000 10500 2700
+Connection ~ 10500 2700
+Wire Wire Line
+	10500 2700 10500 3400
+Wire Wire Line
+	11000 950  11000 1300
+Connection ~ 11000 1300
+Wire Wire Line
+	11000 1300 11000 2000
+Connection ~ 11000 2000
+Wire Wire Line
+	11000 2000 11000 2700
+Connection ~ 11000 2700
+Wire Wire Line
+	11000 2700 11000 3400
+Text GLabel 5900 1700 0    50   Input ~ 0
+ROW0
+Text GLabel 5900 2400 0    50   Input ~ 0
+ROW1
+Text GLabel 5900 3100 0    50   Input ~ 0
+ROW2
+Text GLabel 5900 3800 0    50   Input ~ 0
+ROW3
+Text GLabel 5900 4500 0    50   Input ~ 0
+ROW4
+Text GLabel 6500 950  1    50   Input ~ 0
+COL0
+Text GLabel 7000 950  1    50   Input ~ 0
+COL1
+Text GLabel 7500 950  1    50   Input ~ 0
+COL2
+Text GLabel 8000 950  1    50   Input ~ 0
+COL3
+Text GLabel 8500 950  1    50   Input ~ 0
+COL4
+Text GLabel 9000 950  1    50   Input ~ 0
+COL5
+Text GLabel 9500 950  1    50   Input ~ 0
+COL6
+Text GLabel 10000 950  1    50   Input ~ 0
+COL7
+Text GLabel 10500 950  1    50   Input ~ 0
+COL8
+Text GLabel 11000 950  1    50   Input ~ 0
+COL9
+$Comp
+L Device:R_Small R2
+U 1 1 6072E460
+P 10050 5450
+F 0 "R2" H 10109 5496 50  0000 L CNN
+F 1 "10kOhms" H 10109 5405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical" H 10050 5450 50  0001 C CNN
+F 3 "~" H 10050 5450 50  0001 C CNN
+	1    10050 5450
+	1    0    0    -1  
+$EndComp
+Text GLabel 10500 5350 2    50   BiDi ~ 0
+SCL
+Text GLabel 10500 5250 2    50   BiDi ~ 0
+SDA
+$Comp
+L Device:Rotary_Encoder_Switch ENC1
+U 1 1 60759DC4
+P 6950 5400
+F 0 "ENC1" H 6950 5767 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 6950 5676 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 6800 5560 50  0001 C CNN
+F 3 "~" H 6950 5660 50  0001 C CNN
+	1    6950 5400
+	1    0    0    -1  
+$EndComp
+Text GLabel 6650 5400 0    50   Input ~ 0
+GND
+Connection ~ 8500 3400
+Wire Wire Line
+	5900 4500 6100 4500
+Wire Wire Line
+	6500 3400 6500 4100
+Connection ~ 6500 3400
+Connection ~ 6100 4500
+Wire Wire Line
+	6100 4500 6600 4500
+Text GLabel 7250 5300 2    50   Input ~ 0
+ENC1-IN
+Text GLabel 7250 5500 2    50   Input ~ 0
+ENC1-OUT
+Text GLabel 8300 4300 2    50   Input ~ 0
+ENC1-IN
+Text GLabel 6650 5300 0    50   Input ~ 0
+LEFT
+Text GLabel 6650 5500 0    50   Input ~ 0
+RIGHT
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX41
+U 1 1 6072AAD1
+P 6350 4150
+F 0 "MX41" H 6383 4373 60  0000 C CNN
+F 1 "MX-NoLED" H 6383 4299 20  0000 C CNN
+F 2 "footprints:SW_MX_reversible" H 5725 4125 60  0001 C CNN
+F 3 "" H 5725 4125 60  0001 C CNN
+	1    6350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D41
+U 1 1 607E2461
+P 6100 4400
+F 0 "D41" V 6146 4330 50  0000 R CNN
+F 1 "D_Small" V 6055 4330 50  0000 R CNN
+F 2 "footprints:D_SOD123_axial" V 6100 4400 50  0001 C CNN
+F 3 "~" V 6100 4400 50  0001 C CNN
+	1    6100 4400
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8500 4100 0    50   Input ~ 0
+ENC1-OUT
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 607DC9F0
+P 1150 6950
+F 0 "H3" H 1250 6996 50  0000 L CNN
+F 1 "MountingHole" H 1250 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 1150 6950 50  0001 C CNN
+F 3 "~" H 1150 6950 50  0001 C CNN
+	1    1150 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 607DDEC1
+P 1150 7150
+F 0 "H5" H 1250 7196 50  0000 L CNN
+F 1 "MountingHole" H 1250 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 1150 7150 50  0001 C CNN
+F 3 "~" H 1150 7150 50  0001 C CNN
+	1    1150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 607DE302
+P 1150 7350
+F 0 "H7" H 1250 7396 50  0000 L CNN
+F 1 "MountingHole" H 1250 7305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 1150 7350 50  0001 C CNN
+F 3 "~" H 1150 7350 50  0001 C CNN
+	1    1150 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 607DE5EF
+P 1150 6750
+F 0 "H1" H 1250 6796 50  0000 L CNN
+F 1 "MountingHole" H 1250 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 1150 6750 50  0001 C CNN
+F 3 "~" H 1150 6750 50  0001 C CNN
+	1    1150 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 607DE9D9
+P 1900 6750
+F 0 "H2" H 2000 6796 50  0000 L CNN
+F 1 "MountingHole" H 2000 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 1900 6750 50  0001 C CNN
+F 3 "~" H 1900 6750 50  0001 C CNN
+	1    1900 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 607DED77
+P 1900 6950
+F 0 "H4" H 2000 6996 50  0000 L CNN
+F 1 "MountingHole" H 2000 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 1900 6950 50  0001 C CNN
+F 3 "~" H 1900 6950 50  0001 C CNN
+	1    1900 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 607DF460
+P 1900 7150
+F 0 "H6" H 2000 7196 50  0000 L CNN
+F 1 "MountingHole" H 2000 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 1900 7150 50  0001 C CNN
+F 3 "~" H 1900 7150 50  0001 C CNN
+	1    1900 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4300 6300 4300
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 6087BD79
+P 2900 6750
+F 0 "FID1" H 2985 6796 50  0000 L CNN
+F 1 "Stabalizer Drill Holes" H 2985 6705 50  0000 L CNN
+F 2 "footprints:Stabilizer_MX_2u" H 2900 6750 50  0001 C CNN
+F 3 "~" H 2900 6750 50  0001 C CNN
+	1    2900 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 6087C273
+P 2900 6950
+F 0 "FID2" H 2985 6996 50  0000 L CNN
+F 1 "Front Silkscreen" H 2985 6905 50  0000 L CNN
+F 2 "footprints:wren_logo" H 2900 6950 50  0001 C CNN
+F 3 "~" H 2900 6950 50  0001 C CNN
+	1    2900 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 6087CD04
+P 2900 7150
+F 0 "FID3" H 2985 7196 50  0000 L CNN
+F 1 "Rear Silkscreen" H 2985 7105 50  0000 L CNN
+F 2 "footprints:wren_logo" H 2900 7150 50  0001 C CNN
+F 3 "~" H 2900 7150 50  0001 C CNN
+	1    2900 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 6087D3A8
+P 3950 6750
+F 0 "FID4" H 4035 6796 50  0000 L CNN
+F 1 "Break Hole" H 4035 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 3950 6750 50  0001 C CNN
+F 3 "~" H 3950 6750 50  0001 C CNN
+	1    3950 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID5
+U 1 1 6087DA45
+P 3950 6950
+F 0 "FID5" H 4035 6996 50  0000 L CNN
+F 1 "Break Hole" H 4035 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 3950 6950 50  0001 C CNN
+F 3 "~" H 3950 6950 50  0001 C CNN
+	1    3950 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID6
+U 1 1 6087DDEC
+P 3950 7150
+F 0 "FID6" H 4035 7196 50  0000 L CNN
+F 1 "Break Hole" H 4035 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 3950 7150 50  0001 C CNN
+F 3 "~" H 3950 7150 50  0001 C CNN
+	1    3950 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID7
+U 1 1 6087E992
+P 4600 6750
+F 0 "FID7" H 4685 6796 50  0000 L CNN
+F 1 "Break Hole" H 4685 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 4600 6750 50  0001 C CNN
+F 3 "~" H 4600 6750 50  0001 C CNN
+	1    4600 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID8
+U 1 1 608B2C9D
+P 4600 6950
+F 0 "FID8" H 4685 6996 50  0000 L CNN
+F 1 "Break Hole" H 4685 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 4600 6950 50  0001 C CNN
+F 3 "~" H 4600 6950 50  0001 C CNN
+	1    4600 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID9
+U 1 1 608B2FEB
+P 4600 7150
+F 0 "FID9" H 4685 7196 50  0000 L CNN
+F 1 "Break Hole" H 4685 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 4600 7150 50  0001 C CNN
+F 3 "~" H 4600 7150 50  0001 C CNN
+	1    4600 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID10
+U 1 1 608C0811
+P 5250 6750
+F 0 "FID10" H 5335 6796 50  0000 L CNN
+F 1 "Break Hole" H 5335 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 5250 6750 50  0001 C CNN
+F 3 "~" H 5250 6750 50  0001 C CNN
+	1    5250 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID11
+U 1 1 608C0EC7
+P 5250 6950
+F 0 "FID11" H 5335 6996 50  0000 L CNN
+F 1 "Break Hole" H 5335 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 5250 6950 50  0001 C CNN
+F 3 "~" H 5250 6950 50  0001 C CNN
+	1    5250 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID12
+U 1 1 608C1220
+P 5250 7150
+F 0 "FID12" H 5335 7196 50  0000 L CNN
+F 1 "Break Hole" H 5335 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 5250 7150 50  0001 C CNN
+F 3 "~" H 5250 7150 50  0001 C CNN
+	1    5250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID13
+U 1 1 608C19C4
+P 5900 6750
+F 0 "FID13" H 5985 6796 50  0000 L CNN
+F 1 "Break Hole" H 5985 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 5900 6750 50  0001 C CNN
+F 3 "~" H 5900 6750 50  0001 C CNN
+	1    5900 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID14
+U 1 1 608C1D25
+P 5900 6950
+F 0 "FID14" H 5985 6996 50  0000 L CNN
+F 1 "Break Hole" H 5985 6905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 5900 6950 50  0001 C CNN
+F 3 "~" H 5900 6950 50  0001 C CNN
+	1    5900 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID15
+U 1 1 608C1F03
+P 5900 7150
+F 0 "FID15" H 5985 7196 50  0000 L CNN
+F 1 "Break Hole" H 5985 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 5900 7150 50  0001 C CNN
+F 3 "~" H 5900 7150 50  0001 C CNN
+	1    5900 7150
+	1    0    0    -1  
+$EndComp
+Text GLabel 9200 5750 3    50   Input ~ 0
+GND
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 608C46F0
+P 1900 7350
+F 0 "H8" H 2000 7396 50  0000 L CNN
+F 1 "MountingHole" H 2000 7305 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 1900 7350 50  0001 C CNN
+F 3 "~" H 1900 7350 50  0001 C CNN
+	1    1900 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 608C4E1D
+P 1150 7550
+F 0 "H9" H 1250 7596 50  0000 L CNN
+F 1 "MountingHole" H 1250 7505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_5.5mm" H 1150 7550 50  0001 C CNN
+F 3 "~" H 1150 7550 50  0001 C CNN
+	1    1150 7550
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 2350 0    50   Input ~ 0
+RIGHT
+Text GLabel 1750 2250 0    50   Input ~ 0
+LEFT
+NoConn ~ 2550 2850
+Text GLabel 2650 2850 3    50   Input ~ 0
+COL9
+NoConn ~ 2350 2850
+NoConn ~ 2250 2850
+$Comp
+L wren-numpad-rescue:Elite-C-keebio-wren-left-rescue U1
+U 1 1 6071F7CA
+P 2450 1900
+F 0 "U1" H 2450 2715 50  0000 C CNN
+F 1 "Elite-C" H 2450 2624 50  0000 C CNN
+F 2 "footprints:Elite-C" H 2400 2000 50  0001 C CNN
+F 3 "" H 2400 2000 50  0001 C CNN
+	1    2450 1900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2450 2850
+NoConn ~ 3150 1350
+Text GLabel 1750 2450 0    50   Input ~ 0
+ROW4
+Text GLabel 1750 1950 0    50   Input ~ 0
+ROW3
+Text GLabel 1750 2050 0    50   Input ~ 0
+ROW2
+Text GLabel 1750 1450 0    50   Input ~ 0
+ROW1
+Text GLabel 1750 1350 0    50   Input ~ 0
+ROW0
+Text GLabel 1750 2150 0    50   Input ~ 0
+COL8
+Text GLabel 3150 1750 2    50   Input ~ 0
+COL7
+Text GLabel 3150 1850 2    50   Input ~ 0
+COL6
+Text GLabel 3150 1950 2    50   Input ~ 0
+COL5
+Text GLabel 3150 2050 2    50   Input ~ 0
+COL4
+Text GLabel 3150 2150 2    50   Input ~ 0
+COL3
+Text GLabel 3150 2250 2    50   Input ~ 0
+COL2
+Text GLabel 3150 2350 2    50   Input ~ 0
+COL1
+Text GLabel 3150 2450 2    50   Input ~ 0
+COL0
+Text GLabel 3850 1550 2    50   Output ~ 0
+GND
+Wire Wire Line
+	3150 1550 3450 1550
+$Comp
+L Switch:SW_Push SW0
+U 1 1 60738E12
+P 3650 1550
+F 0 "SW0" H 3650 1835 50  0000 C CNN
+F 1 "Reset" H 3650 1744 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm" H 3650 1750 50  0001 C CNN
+F 3 "~" H 3650 1750 50  0001 C CNN
+	1    3650 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3150 1450 2    50   Input ~ 0
+GND
+Text GLabel 3150 1650 2    50   Output ~ 0
+VCC
+Text GLabel 1750 1850 0    50   BiDi ~ 0
+SCL
+Text GLabel 1750 1750 0    50   BiDi ~ 0
+SDA
+$Comp
+L wren-numpad-rescue:Elite-C-keebio-wren-left-rescue U2
+U 1 1 608E0AB3
+P 2450 4100
+F 0 "U2" H 2450 4915 50  0000 C CNN
+F 1 "EGG PRO MICRO" H 2450 4824 50  0000 C CNN
+F 2 "footprints:ARDUINO_PRO_MICRO" H 2400 4200 50  0001 C CNN
+F 3 "" H 2400 4200 50  0001 C CNN
+	1    2450 4100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1750 1750 0    50   BiDi ~ 0
+SDA
+Text GLabel 1750 4250 0    50   Input ~ 0
+COL9
+Text GLabel 1750 4150 0    50   Input ~ 0
+COL8
+Text GLabel 1750 3650 0    50   Input ~ 0
+COL7
+Text GLabel 1750 3550 0    50   Input ~ 0
+COL6
+Text GLabel 3150 3950 2    50   Input ~ 0
+ROW0
+Text GLabel 3150 4450 2    50   Input ~ 0
+ROW1
+Text GLabel 3150 4550 2    50   Input ~ 0
+ROW2
+Text GLabel 3150 4650 2    50   Input ~ 0
+ROW3
+NoConn ~ 1750 1550
+NoConn ~ 1750 1650
+$EndSCHEMATC
