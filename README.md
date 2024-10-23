@@ -5,19 +5,20 @@
 ![Example Layout](/images/author-layout.png)
 
 ## Table of Contents
-- [Introduction](https://github.com/walterhanley/wren-keyboard#introduction)
-- [Controller](https://github.com/walterhanley/wren-keyboard#controller)
-- [PCB](https://github.com/walterhanley/wren-keyboard#pcb)
-- [Case and Plate](https://github.com/walterhanley/wren-keyboard#case-and-plate)
-- [Software](https://github.com/walterhanley/wren-keyboard#software)
-- [Cost Estimates and Purchasing](https://github.com/walterhanley/wren-keyboard#cost-estimates-and-purchasing)
-- [BOM](https://github.com/walterhanley/wren-keyboard#bom)
-- [Build Guide](https://github.com/walterhanley/wren-keyboard#build-guide)
+- [Introduction](https://github.com/oliviahanley/wren-keyboard#introduction)
+- [2.0 Update](https://github.com/oliviahanley/wren-keyboard#2.0-update)
+- [Controller](https://github.com/oliviahanley/wren-keyboard#controller)
+- [PCB](https://github.com/oliviahanley/wren-keyboard#pcb)
+- [Case and Plate](https://github.com/oliviahanley/wren-keyboard#case-and-plate)
+- [Software](https://github.com/oliviahanley/wren-keyboard#software)
+- [Cost Estimates and Purchasing](https://github.com/oliviahanley/wren-keyboard#cost-estimates-and-purchasing)
+- [BOM](https://github.com/oliviahanley/wren-keyboard#bom)
+- [Build Guide](https://github.com/oliviahanley/wren-keyboard#build-guide)
 
 ## Introduction
-The Wren is a split ergonomic "system keyboard". It takes heavy inspiration from the Lily58, [Afternoon Labs' Breeze](https://afternoonlabs.com/breeze/), and [SplitKB's Kyria](https://blog.splitkb.com/blog/introducing-the-kyria), in addition to employing a case similar to the Corne's.
+The Wren is a split ergonomic system keyboard. It takes heavy inspiration from the Lily58, [Afternoon Labs' Breeze](https://afternoonlabs.com/breeze/), and [SplitKB's Kyria](https://blog.splitkb.com/blog/introducing-the-kyria) with a Corne-ish layout.
 
-My primary keyboard for the last few years has been Prime Keyboards' prime_o, before which I used a handwired Planck. On both I made pretty heavy use of the numpad. I grew to appreciate the prime\_o's physical one, though, mostly because I spend a lot of time in Excel at my day job and like using the mouse and numpad simultaneously. I've been wanting to switch to ergo for a while, but I was annoyed by the thought of having to use a separate numpad to recreate that experience. This project was an attempt to solve that problem.
+Before this, my primary keyboard had been Prime Keyboards' prime_o, before which I used a handwired Planck. On both I made pretty heavy use of the numpad. I grew to appreciate the prime\_o's physical one, though, mostly because I spend a lot of time in Excel at my day job and like using the mouse and numpad simultaneously. I've been wanting to switch to ergo for a while, but I was annoyed by the thought of having to use a separate numpad to recreate that experience. This project was an attempt to solve that problem.
 
 My original design simply incorporated a southpaw numpad. After some feedback, though, I decided to reinvent it as a more adaptable design. The repository includes a universal PCB (incorporating break-away tabs) and plates to make four boards, each reversible:
 - A Lilly58/Kyria-inspired split board, with no extra keys;
@@ -25,26 +26,33 @@ My original design simply incorporated a southpaw numpad. After some feedback, t
 - An extended layout with a traditional nav cluster; and
 - A small 4x4 macropad (nicknamed Egg).
 
-Each of these boards (besides the macropad) can be combined with the others in a split setup, so users can take their pick of a right or left nav cluster/numpad, or combine both in the same board. You could even just use two of the basic boards together for a more traditional layout, though I'm sure there are more elegant designs out there for that.
+Each of these boards (besides the macropad) can be combined with the others in a split setup, so users can take their pick of a right or left nav cluster/numpad or combine both in the same board. You could even just use two of the basic boards together for a more traditional layout, though I'm sure there are more elegant designs out there for that.
 
-The 2.0 release includes a redesigned PCB that adds a few mew features, including:
-- Nice!Nano compatibility (w/ battery plug)
-
+## 2.0 Update
+The 2.0 release includes several major changes, including:
+- A 3D printable (or CNCable) case with two height variations
+- Nice!Nano compatibility with battery plug and ZMK compatibility
+- Nice!View support
+- Support for hot-swap sockets in addition to soldered switches
+- Support for Choc v1 switches with soldering or sockets
+- Optional display cover
+- Better design and documentation for the Egg
+- Flip-flop footprints for the MCU
 
 ## Controller
-The Wren uses a Pro Micro-compatible footprint, but is designed around the Elite-C or Nice!Nano's extra I/O pins on the numpad board. With just a Pro Micro, the outer column won't work.
+The Wren uses a Pro Micro-compatible footprint, but is designed around the Elite-C or nice!Nano's extra I/O pins. With just a Pro Micro, the outer column and nice!view won't work.
 
 ## PCB
-The PCB uses reversible, MX-compatible footprints. There isn't hot-swap support yet, in large part because I didn't want to deal with the structural considerations of those sockets. If someone else wanted to make a pull request for a hotswap version, though, I'd be happy to merge it in.
+The PCB uses reversible, MX and choc compatible footprints with hot-swap support.
 
-The PCB is also specifically designed around rotary encoders with a diameter less than 0.5". I'm using Kilo 50 sized knobs, but others in a similar size class will work well, too.
+The PCB is specifically designed around rotary encoders with a diameter less than 0.5". I'm using Kilo 50 sized knobs, but others in a similar size class will work well, too.
 
 ## Case and Plate
-This repository includes a top and bottom plate designed around M2 screws and standoffs. The bottom plate can be manufactured out of FR4 PCB material by any manufacturer; this will likely be the most cost-effective option. The top plate cannot be manufactured by my preferred PCB fabricator, JLCPCB, but your milage may vary. Instead, I used the .eps files included in the [Case folder](https://github.com/walterhanley/wren-keyboard/tree/main/Case) to have my top plates manufactured in stainless steel by SendCutSend. In my experience these plates are an extremely tight fit around Kailh Box switches, but considering these aren't hot-swap that's an acceptable trade-off for me.
+This repository includes a top and bottom plate designed around M2 screws and standoffs. The bottom plate can be manufactured out of FR4 PCB material by any manufacturer; this will likely be the most cost-effective option. The top plate cannot be manufactured by my preferred PCB fabricator, JLCPCB, but your milage may vary. Instead, I used the .eps files included in the [Case folder](https://github.com/oliviahanley/wren-keyboard/tree/main/Case) to have my top plates manufactured in stainless steel by SendCutSend. In my experience these plates are an extremely tight fit around Kailh Box switches, but considering these aren't hot-swap that's an acceptable trade-off for me.
 
 To make a complete case, you'll need 7 M2 spacers (5 for the plain board), a top plate, and a bottom plate.
 
-Additionally, I've planned a 3D printed outer case. This design wraps the PCB and top plate in a printed outer layer, and provides a bit more protection.
+There's also a 3D-printed bottom case. This uses the top plate and PCB without the bottom plate. \<\<MORE HERE\>\>
 
 ## Software
 Tested code for this board is in the [main QMK repository](https://github.com/qmk/qmk_firmware/pull/14570). Thanks so much to [noroadsleft](https://github.com/qmk/qmk_firmware/pull/16462) for getting QMK configurator working! To build a hex file with the default keymap, use the following code after setting up your [QMK build environment](https://docs.qmk.fm/#/newbs_getting_started):
@@ -61,9 +69,9 @@ When customizing your keymap, note that the matrix includes all keys that would 
 #define MASTER_RIGHT
 ```
 
-If you end up implementing something for this board in ZMK please don't hesitate to let me know or submit a pull request--I'd be happy to include documentation of that here, as well.
+\<\<ZMK INFO HERE\>\>
 
-## Cost Estimates and Purchasing
+## Cost Estimates and Purchasing <\<\UPDATE\>\>
 It should be relatively affordable to have these boards manufactured. Here are my costs for my PCB components at JLCPCB in USD as of September 2021:
 - Universal PCB (15 boards): $35.30
 - Numpad bottom plate (5 boards): $14.50
@@ -80,7 +88,7 @@ The repository should include up-to-date zipped Gerber files, which can be used 
 
 (I'm currently not planning on offering these boards as a kit. It should be cost-competitive to source the cases and plates yourself, and getting comfortable with ordering PCBs is a great first step to designing your own custom board. If you are interested in stocking this keyboard, though, please feel free to reach out and I'll be happy to provide any help I can.)
 
-## BOM
+## BOM <\<\UPDATE\>\>
 ### Numpad Board
 To assemble a numpad half, you'll need these parts:
 - 1 Universal PCB
@@ -150,7 +158,7 @@ To assemble an egg with a broken-off piece of a main board, you'll need these pa
 - 12/16 1u MX keycaps
 - 12/16 1N4148 diodes
 
-## Build Guide
+## Build Guide <\<\UPDATE\>\>
 _Please note that this build guide refers to the "top" or "bottom" of the PCB. Since the PCB is reversible, these terms are relative to the final orientation of the board, not anything absolute. For example, the top of the right hand board would be the bottom of the left-hand board._
 
 0. If necessary, break off any unused sections of the PCB. This is best accomplished by placing the board on a hard, flat surface with the perforated section of the board placed over the edge. While holding the main section of the board to the surface, firmly press down on the section you'd like to detach until it breaks off. Then, use a file to remove any remnants of the perforation. 
