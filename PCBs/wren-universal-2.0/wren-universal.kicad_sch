@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Wren Keyboard PCB (Half)")
+    (date "2024-10-23")
+    (rev "2.0")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x03_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.08 0)
@@ -5290,7 +5296,7 @@
     (property "Reference" "BT1" (at 61.6585 138.43 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Battery_Cell" (at 61.6585 140.97 90)
+    (property "Value" "Battery Connector" (at 61.6585 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" (at 61.976 146.05 90)

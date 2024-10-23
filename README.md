@@ -19,7 +19,7 @@ The Wren is a split ergonomic "system keyboard". It takes heavy inspiration from
 
 My primary keyboard for the last few years has been Prime Keyboards' prime_o, before which I used a handwired Planck. On both I made pretty heavy use of the numpad. I grew to appreciate the prime\_o's physical one, though, mostly because I spend a lot of time in Excel at my day job and like using the mouse and numpad simultaneously. I've been wanting to switch to ergo for a while, but I was annoyed by the thought of having to use a separate numpad to recreate that experience. This project was an attempt to solve that problem.
 
-My original design simply incorporated a southpaw numpad. After some feedback, though, I decided to reinvent it as a "system keyboard" modeled after the old system cameras. The repository includes a universal PCB (incorporating break-away tabs) and plates to make four boards, each reversible:
+My original design simply incorporated a southpaw numpad. After some feedback, though, I decided to reinvent it as a more adaptable design. The repository includes a universal PCB (incorporating break-away tabs) and plates to make four boards, each reversible:
 - A Lilly58/Kyria-inspired split board, with no extra keys;
 - An extended layout with a 4x4 numpad;
 - An extended layout with a traditional nav cluster; and
@@ -27,8 +27,12 @@ My original design simply incorporated a southpaw numpad. After some feedback, t
 
 Each of these boards (besides the macropad) can be combined with the others in a split setup, so users can take their pick of a right or left nav cluster/numpad, or combine both in the same board. You could even just use two of the basic boards together for a more traditional layout, though I'm sure there are more elegant designs out there for that.
 
+The 2.0 release includes a redesigned PCB that adds a few mew features, including:
+- Nice!Nano compatibility (w/ battery plug)
+
+
 ## Controller
-The Wren uses a Pro Micro-compatible footprint, but is designed around the Elite-C's extra I/O pins on the numpad board. With just a Pro Micro, the outer column won't work. I _think_ you could get a Nice!Nano to full compatibility with some creative soldering from the mid-board I/O pins to the appropriate pins on the Elite-C footprint, but I haven't spent any time on this myself.
+The Wren uses a Pro Micro-compatible footprint, but is designed around the Elite-C or Nice!Nano's extra I/O pins on the numpad board. With just a Pro Micro, the outer column won't work.
 
 ## PCB
 The PCB uses reversible, MX-compatible footprints. There isn't hot-swap support yet, in large part because I didn't want to deal with the structural considerations of those sockets. If someone else wanted to make a pull request for a hotswap version, though, I'd be happy to merge it in.
