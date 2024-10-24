@@ -34,7 +34,7 @@ The 2.0 release includes several major changes, including:
 - Nice!Nano compatibility with battery plug and ZMK compatibility
 - Nice!View support
 - Support for hot-swap sockets in addition to soldered switches
-- Support for Choc v1 switches with soldering or sockets
+- Choc v1 variant
 - Optional display cover
 - Better design and documentation for the Egg
 - Flip-flop footprints for the MCU
