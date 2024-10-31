@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/keebio.lib")(options "")(descr ""))
+  (lib (name "wren-universal-cache")(type "Legacy")(uri "${KIPRJMOD}/wren-mx-cache.lib")(options "")(descr ""))
+  (lib (name "reversable-symbols")(type "Legacy")(uri "${KIPRJMOD}/reversible-kicad-symbols.lib")(options "")(descr ""))
+  (lib (name "XIAO")(type "Legacy")(uri "${KIPRJMOD}/Seeeduino XIAO.lib")(options "")(descr ""))
+)
